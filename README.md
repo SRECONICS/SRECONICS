@@ -191,40 +191,126 @@ available: Immediate Start | Flexible up to 12 months
 
 ---
 
-## 🏆 **ACHIEVEMENTS & CERTIFICATIONS**
+## 🏆 **CERTIFICATIONS**
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=SRECONICS&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-<table align="center">
+<table>
 <tr>
-<td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="80" /><br>
-<b>NPTEL</b><br>
-<sub>FPGA & Digital Design</sub>
+<td align="center" width="33%">
+
+### 🎓 **Hardware & EDA Tools**
+
+[![Cadence](https://img.shields.io/badge/Cadence-Design_Systems-EE3524?style=for-the-badge&logo=cadence&logoColor=white)](https://coursera.org/verify/DTWCE91SFS3J)
+
+**Cadence Design Systems: Essential Guide**  
+*Coursera Instructor Network*  
+📅 Oct 2025
+
+---
+
+[![KiCad](https://img.shields.io/badge/KiCad-PCB_Design-314CB0?style=for-the-badge&logo=kicad&logoColor=white)](https://coursera.org/verify/GH8OGWXAA5FH)
+
+**Mastering KiCAD: Open-Source PCB Design**  
+*Coursera Instructor Network*  
+📅 Sep 2025
+
+---
+
+[![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-Hardware_Design-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)](https://coursera.org/verify/73N0QLKQV33I)
+
+**Designing Hardware for Raspberry Pi Projects**  
+*Johns Hopkins University*  
+📅 Sep 2025
+
 </td>
-<td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/216122069-5b8169d7-1d8e-4a13-b245-a8e4176c99f8.png" width="80" /><br>
-<b>Coursera</b><br>
-<sub>Embedded Systems</sub>
+<td align="center" width="33%">
+
+### 🤖 **AI & Machine Learning**
+
+[![IBM AI](https://img.shields.io/badge/IBM-AI_Essentials-0530AD?style=for-the-badge&logo=ibm&logoColor=white)](https://coursera.org/verify/213EDF0JP096)
+
+**Artificial Intelligence Essentials V2**  
+*IBM Developer Skills Network*  
+📅 Oct 2025
+
+---
+
+[![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-AI_For_Everyone-FF6F00?style=for-the-badge)](https://coursera.org/verify/YSCQUN9WG883)
+
+**AI For Everyone**  
+*DeepLearning.AI (Andrew Ng)*  
+📅 Sep 2025
+
+---
+
+[![IBM](https://img.shields.io/badge/IBM-Introduction_to_AI-0530AD?style=for-the-badge&logo=ibm&logoColor=white)](https://coursera.org/verify/213EDF0JP096)
+
+**Introduction to Artificial Intelligence (AI)**  
+*IBM Skills Network*  
+📅 Oct 2025
+
+---
+
+[![Google Cloud](https://img.shields.io/badge/Google_Cloud-Responsible_AI-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://coursera.org/verify/Q4GY3VQDPYQG)
+
+**Introduction to Responsible AI**  
+*Google Cloud*  
+📅 Sep 2025
+
 </td>
-<td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="80" /><br>
-<b>Xilinx</b><br>
-<sub>Vivado Design Suite</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/235294015-47195d49-d0a7-4aa4-8f4c-c8e8e1c04c40.gif" width="80" /><br>
-<b>Altium</b><br>
-<sub>PCB Design</sub>
+<td align="center" width="33%">
+
+### 💻 **Programming**
+
+[![Python](https://img.shields.io/badge/Python-Data_Structures-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://coursera.org/verify/UO6PM75MBNUQ)
+
+**Python for Beginners: Data Structures**  
+*Coursera Project Network*  
+📅 Sep 2025
+
+---
+
+[![Python](https://img.shields.io/badge/Python-Variables_&_Strings-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://coursera.org/verify/4PWMMAGT9IAE)
+
+**Python for Beginners: Variables and Strings**  
+*Coursera Project Network*  
+📅 Sep 2025
+
+---
+
+[![Java](https://img.shields.io/badge/Java-Fundamentals-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://coursera.org/verify/RF5QU35JTYNS)
+
+**Introduction to Java Programming**  
+*Coursera Project Network*  
+📅 Sep 2025
+
 </td>
 </tr>
 </table>
 
 ---
+
+### 📜 **All Certifications**
+
+<div align="center">
+
+| **Certificate** | **Issuer** | **Date** | **Verify** |
+|:---|:---|:---:|:---:|
+| **Cadence Design Systems: Essential Guide** | Coursera Instructor Network | Oct 2025 | [🔗](https://coursera.org/verify/DTWCE91SFS3J) |
+| **Mastering KiCAD: PCB Design for Beginners** | Coursera Instructor Network | Sep 2025 | [🔗](https://coursera.org/verify/GH8OGWXAA5FH) |
+| **Designing Hardware for Raspberry Pi Projects** | Johns Hopkins University | Sep 2025 | [🔗](https://coursera.org/verify/73N0QLKQV33I) |
+| **Artificial Intelligence Essentials V2** | IBM (via Coursera) | Oct 2025 | [🔗](https://coursera.org/verify/YSCQUN9WG883) |
+| **AI For Everyone** | DeepLearning.AI | Sep 2025 | [🔗](https://coursera.org/verify/YSCQUN9WG883) |
+| **Introduction to Artificial Intelligence (AI)** | IBM Skills Network | Oct 2025 | [🔗](https://coursera.org/verify/213EDF0JP096) |
+| **Introduction to Responsible AI** | Google Cloud | Sep 2025 | [🔗](https://coursera.org/verify/Q4GY3VQDPYQG) |
+| **Python: Data Structures** | Coursera Project Network | Sep 2025 | [🔗](https://coursera.org/verify/UO6PM75MBNUQ) |
+| **Python: Variables and Strings** | Coursera Project Network | Sep 2025 | [🔗](https://coursera.org/verify/4PWMMAGT9IAE) |
+| **Introduction to Java Programming** | Coursera Project Network | Sep 2025 | [🔗](https://coursera.org/verify/RF5QU35JTYNS) |
+
+</div>
+
+</div>
 
 ## 🎓 **EDUCATION**
 
