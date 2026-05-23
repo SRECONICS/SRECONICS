@@ -417,7 +417,7 @@ Microcontrollers • Communication Systems
 <br><br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreeraj-s-760167241/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23FF6B35.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://shreeraj-fpga.netlify.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23FF6B35.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://shreerajportfolio.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreerajsivasakthi04@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SRECONICS)
 
