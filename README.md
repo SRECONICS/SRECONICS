@@ -327,7 +327,7 @@ available: Immediate Start | Flexible up to 12 months
 
 Nehru Institute of Engineering and Technology, Coimbatore
 
-📅 2022 - 2027 | 🎯 **CGPA: 8.24/10**
+📅 2024 - 2027 | 🎯 **CGPA: 8.24/10**
 
 **Relevant Coursework:**  
 Digital Electronics • Microprocessors • VLSI Design  
@@ -343,7 +343,7 @@ Embedded Systems • DSP • Communication Systems
 
 Government Polytechnic College, Kerala
 
-📅 2019 - 2022 | 🎯 **CGPA: 8.53/10**
+📅 2022 - 2024 | 🎯 **CGPA: 8.53/10**
 
 **Foundation in:**  
 Electronic Devices • Circuit Design  
