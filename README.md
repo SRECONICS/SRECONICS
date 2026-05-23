@@ -5,7 +5,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=940&lines=FPGA+Hardware+Engineer;Embedded+Systems+Developer;Building+Real-Time+Hardware+Accelerators" alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shreeraj-s-760167241/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23FF6B35.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://shreeraj-fpga.netlify.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23FF6B35.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://shreerajportfolio.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreerajsivasakthi04@gmail.com)
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
@@ -38,7 +38,7 @@ currently_learning:
   - Real-Time OS (FreeRTOS)
   - Cadence VLSI Toolchain
 
-seeking: Core ECE Internships | Chennai • Hosur • Kerala
+seeking: Core ECE Internships | Chennai • Hosur • Bangalore • Hyderabad 
 available: Immediate Start | Flexible up to 12 months
 ```
 
@@ -87,7 +87,7 @@ available: Immediate Start | Flexible up to 12 months
 ### **PCB Design & EDA Tools**
 ![Altium](https://img.shields.io/badge/Altium_Designer-%23A5915F.svg?style=for-the-badge&logoColor=white)
 ![KiCad](https://img.shields.io/badge/KiCad-%23314CB0.svg?style=for-the-badge&logo=kicad&logoColor=white)
-![Cadence](https://img.shields.io/badge/Cadence_Virtuoso-%23EE3524.svg?style=for-the-badge)
+![Cadence](https://img.shields.io/badge/Cadence_Oracad-x-Allegro-%23EE3524.svg?style=for-the-badge)
 ![Proteus](https://img.shields.io/badge/Proteus-%23000000.svg?style=for-the-badge)
 
 ### **Programming & Development**
@@ -96,7 +96,6 @@ available: Immediate Start | Flexible up to 12 months
 ![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-%23e16737.svg?style=for-the-badge&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)
 
 </div>
 
