@@ -1,0 +1,25 @@
+# Wireless Soil Moisture & Irrigation Trigger — Multi-Sensor Fusion Edition
+
+## Wireless Soil Moisture & Irrigation Trigger — Multi-Sensor Fusion Edition
+
+**Board:** Raspberry Pi Pico W — Microcontroller (RP2040, dual-core Cortex-M0+, WiFi + BLE)
+**Date:** 2026-07-28
+
+### Overview
+A capacitive soil moisture probe feeds the Pico W's ADC, and once readings drop below a calibrated threshold it fires a relay-driven pump for a set duration. Readings are pushed to an MQTT topic every few minutes over the built-in WiFi radio. It's useful for anyone tired of either overwatering potted plants or forgetting them entirely, especially over a long weekend. A second sensing modality is fused with the primary signal, cutting down false triggers that a single sensor alone would miss.
+
+### Key Components / Peripherals
+- Capacitive soil moisture sensor
+- 5V relay module
+- Small DC water pump
+- Secondary sensor for cross-validation
+
+![Wireless Soil Moisture & Irrigation Trigger — Multi-Sensor Fusion Edition](https://raw.githubusercontent.com/sreconics/sreconics/claude/daily-project-posting-pipeline-qnapbt/assets/daily-posts/2026-07-28-wireless-soil-moisture-irrigation-trigger/banner.png)
+
+![Wireless Soil Moisture & Irrigation Trigger — Multi-Sensor Fusion Edition](https://raw.githubusercontent.com/sreconics/sreconics/claude/daily-project-posting-pipeline-qnapbt/assets/daily-posts/2026-07-28-wireless-soil-moisture-irrigation-trigger/diagram.png)
+
+### Tags
+`IoT` `home automation` `sensor fusion`
+
+---
+*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*

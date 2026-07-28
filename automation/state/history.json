@@ -1,0 +1,24 @@
+{
+  "total_posts": 1,
+  "boards": {
+    "pico_w": {
+      "used_count": 1
+    }
+  },
+  "posts": [
+    {
+      "date": "2026-07-28",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "Wireless Soil Moisture & Irrigation Trigger — Multi-Sensor Fusion Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "sensor fusion"
+      ],
+      "slug": "2026-07-28-wireless-soil-moisture-irrigation-trigger",
+      "owner": "sreconics",
+      "repo": "sreconics"
+    }
+  ]
+}
