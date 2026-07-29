@@ -1,0 +1,62 @@
+name: Daily Project Showcase Post
+
+on:
+  schedule:
+    # 09:00 UTC daily
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: daily-project-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r automation/requirements.txt
+
+      - name: Generate today's post (images + state, no publish yet)
+        id: generate
+        run: |
+          python -m automation.daily_post.main \
+            --owner "${{ github.repository_owner }}" \
+            --repo "${{ github.event.repository.name }}" \
+            --branch "${{ github.ref_name }}" \
+            --no-publish | tee /tmp/generate.log
+          slug=$(grep '^::SLUG::' /tmp/generate.log | sed 's/^::SLUG:://')
+          echo "slug=$slug" >> "$GITHUB_OUTPUT"
+
+      - name: Commit generated assets and state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add automation/state assets/daily-posts
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: daily project showcase post [skip ci]"
+            git push
+          else
+            echo "Nothing to commit"
+          fi
+
+      - name: Publish GitHub issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_POST_TOKEN: ${{ secrets.GH_POST_TOKEN }}
+        run: |
+          python -m automation.daily_post.publish --slug "${{ steps.generate.outputs.slug }}"
