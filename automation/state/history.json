@@ -1,7 +1,10 @@
 {
-  "total_posts": 1,
+  "total_posts": 2,
   "boards": {
     "pico_w": {
+      "used_count": 1
+    },
+    "pi_zero2w": {
       "used_count": 1
     }
   },
@@ -17,6 +20,20 @@
         "sensor fusion"
       ],
       "slug": "2026-07-28-wireless-soil-moisture-irrigation-trigger",
+      "owner": "sreconics",
+      "repo": "sreconics"
+    },
+    {
+      "date": "2026-07-29",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Room Sound-Level & Baby Monitor — Data Logger Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "data logging"
+      ],
+      "slug": "2026-07-29-room-sound-level-baby-monitor",
       "owner": "sreconics",
       "repo": "sreconics"
     }
