@@ -1,10 +1,13 @@
 {
-  "total_posts": 2,
+  "total_posts": 3,
   "boards": {
     "pico_w": {
       "used_count": 1
     },
     "pi_zero2w": {
+      "used_count": 1
+    },
+    "pi3": {
       "used_count": 1
     }
   },
@@ -36,6 +39,20 @@
       "slug": "2026-07-29-room-sound-level-baby-monitor",
       "owner": "sreconics",
       "repo": "sreconics"
+    },
+    {
+      "date": "2026-07-29",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Central Home Automation Hub — Offline-First Edition",
+      "tags": [
+        "home automation",
+        "IoT",
+        "edge computing"
+      ],
+      "slug": "2026-07-29-central-home-automation-hub",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
     }
   ]
 }

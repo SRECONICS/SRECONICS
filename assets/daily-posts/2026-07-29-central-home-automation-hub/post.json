@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-29",
+  "board": "pi3",
+  "board_name": "Raspberry Pi 3",
+  "title": "Central Home Automation Hub — Offline-First Edition",
+  "tags": [
+    "home automation",
+    "IoT",
+    "edge computing"
+  ],
+  "slug": "2026-07-29-central-home-automation-hub",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Central Home Automation Hub — Offline-First Edition\n\n**Board:** Raspberry Pi 3 — Quad-core Linux SBC (WiFi + Bluetooth, general-purpose home automation / robotics hub)\n**Date:** 2026-07-29\n\n### Overview\nA Zigbee USB dongle plugged into the Pi 3 lets it talk directly to cheap Zigbee sensors and smart plugs, with an MQTT broker running locally to tie everything together without depending on any vendor's cloud. This is the classic 'take back your smart home from the cloud' build, and the Pi 3 has exactly enough headroom to run the broker plus a rules engine comfortably. It's genuinely more reliable than most consumer hubs because there's no vendor server to go down. All logic runs locally with no cloud dependency, so it keeps working through internet outages or in network-dead zones.\n\n### Key Components / Peripherals\n- Zigbee USB dongle\n- MQTT broker (Mosquitto)\n- Zigbee smart plugs/sensors\n- Local storage (SD card / flash)\n\n![Central Home Automation Hub — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-07-29-central-home-automation-hub/banner.png)\n\n![Central Home Automation Hub — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-07-29-central-home-automation-hub/diagram.png)\n\n### Tags\n`home automation` `IoT` `edge computing`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
