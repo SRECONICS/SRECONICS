@@ -1,5 +1,5 @@
 {
-  "total_posts": 3,
+  "total_posts": 4,
   "boards": {
     "pico_w": {
       "used_count": 1
@@ -8,6 +8,9 @@
       "used_count": 1
     },
     "pi3": {
+      "used_count": 1
+    },
+    "pi4": {
       "used_count": 1
     }
   },
@@ -51,6 +54,20 @@
         "edge computing"
       ],
       "slug": "2026-07-29-central-home-automation-hub",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-07-30",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "Vision-Guided Line-Maze Solving Robot — Voice-Alert Edition",
+      "tags": [
+        "robotics",
+        "computer vision",
+        "accessibility"
+      ],
+      "slug": "2026-07-30-vision-guided-line-maze-solving-robot",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
