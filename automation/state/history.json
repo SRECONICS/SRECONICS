@@ -1,5 +1,5 @@
 {
-  "total_posts": 4,
+  "total_posts": 5,
   "boards": {
     "pico_w": {
       "used_count": 1
@@ -11,6 +11,9 @@
       "used_count": 1
     },
     "pi4": {
+      "used_count": 1
+    },
+    "pi5": {
       "used_count": 1
     }
   },
@@ -68,6 +71,20 @@
         "accessibility"
       ],
       "slug": "2026-07-30-vision-guided-line-maze-solving-robot",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-07-31",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "Multimodal Voice + Vision Home Assistant — Cloud Dashboard Edition",
+      "tags": [
+        "computer vision",
+        "edge AI",
+        "cloud"
+      ],
+      "slug": "2026-07-31-multimodal-voice-vision-home-assistant",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
