@@ -1,5 +1,5 @@
 {
-  "total_posts": 5,
+  "total_posts": 6,
   "boards": {
     "pico_w": {
       "used_count": 1
@@ -14,6 +14,9 @@
       "used_count": 1
     },
     "pi5": {
+      "used_count": 1
+    },
+    "pynq_z2": {
       "used_count": 1
     }
   },
@@ -85,6 +88,19 @@
         "cloud"
       ],
       "slug": "2026-07-31-multimodal-voice-vision-home-assistant",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-01",
+      "board": "pynq_z2",
+      "board_name": "PYNQ-Z2 (FPGA)",
+      "title": "Hardware RNG & PUF-Based Device Authentication — Predictive Maintenance Edition",
+      "tags": [
+        "FPGA acceleration",
+        "predictive maintenance"
+      ],
+      "slug": "2026-08-01-hardware-rng-puf-based-device-authentication",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-01",
+  "board": "pynq_z2",
+  "board_name": "PYNQ-Z2 (FPGA)",
+  "title": "Hardware RNG & PUF-Based Device Authentication — Predictive Maintenance Edition",
+  "tags": [
+    "FPGA acceleration",
+    "predictive maintenance"
+  ],
+  "slug": "2026-08-01-hardware-rng-puf-based-device-authentication",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Hardware RNG & PUF-Based Device Authentication — Predictive Maintenance Edition\n\n**Board:** PYNQ-Z2 (FPGA) — Zynq-7020 SoC (ARM Cortex-A9 + programmable logic, HLS-friendly, PYNQ/Python overlay flow)\n**Date:** 2026-08-01\n\n### Overview\nA ring-oscillator-based physical unclonable function (PUF) implemented in programmable logic derives a device-unique fingerprint from tiny manufacturing variations in the FPGA fabric itself, paired with a hardware random-number generator for challenge-response authentication that doesn't depend on storing a secret key anywhere. It's a genuinely elegant hardware-security concept: identity derived from physical imperfection rather than a stored value that can be extracted. A strong, discussion-worthy security-focused FPGA project. A lightweight trend check on recent readings flags drift before it becomes a failure, instead of only reacting after something breaks.\n\n### Key Components / Peripherals\n- Ring-oscillator PUF core\n- Hardware RNG core\n- Rolling-average / threshold trend logic\n\n![Hardware RNG & PUF-Based Device Authentication — Predictive Maintenance Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-01-hardware-rng-puf-based-device-authentication/banner.png)\n\n![Hardware RNG & PUF-Based Device Authentication — Predictive Maintenance Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-01-hardware-rng-puf-based-device-authentication/diagram.png)\n\n### Tags\n`FPGA acceleration` `predictive maintenance`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
