@@ -1,8 +1,8 @@
 {
-  "total_posts": 6,
+  "total_posts": 7,
   "boards": {
     "pico_w": {
-      "used_count": 1
+      "used_count": 2
     },
     "pi_zero2w": {
       "used_count": 1
@@ -101,6 +101,20 @@
         "predictive maintenance"
       ],
       "slug": "2026-08-01-hardware-rng-puf-based-device-authentication",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-02",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "Wireless Soil Moisture & Irrigation Trigger — Data Logger Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "data logging"
+      ],
+      "slug": "2026-08-02-wireless-soil-moisture-irrigation-trigger",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
