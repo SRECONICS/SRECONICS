@@ -1,11 +1,11 @@
 {
-  "total_posts": 7,
+  "total_posts": 8,
   "boards": {
     "pico_w": {
       "used_count": 2
     },
     "pi_zero2w": {
-      "used_count": 1
+      "used_count": 2
     },
     "pi3": {
       "used_count": 1
@@ -115,6 +115,20 @@
         "data logging"
       ],
       "slug": "2026-08-02-wireless-soil-moisture-irrigation-trigger",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-03",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Pet Feeding & Monitoring Camera — Fail-Safe Edition",
+      "tags": [
+        "IoT",
+        "computer vision",
+        "reliability engineering"
+      ],
+      "slug": "2026-08-03-pet-feeding-monitoring-camera",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
