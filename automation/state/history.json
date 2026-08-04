@@ -1,5 +1,5 @@
 {
-  "total_posts": 8,
+  "total_posts": 9,
   "boards": {
     "pico_w": {
       "used_count": 2
@@ -8,7 +8,7 @@
       "used_count": 2
     },
     "pi3": {
-      "used_count": 1
+      "used_count": 2
     },
     "pi4": {
       "used_count": 1
@@ -129,6 +129,19 @@
         "reliability engineering"
       ],
       "slug": "2026-08-03-pet-feeding-monitoring-camera",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-04",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Line-Following & Obstacle-Avoiding Robot — Predictive Maintenance Edition",
+      "tags": [
+        "robotics",
+        "predictive maintenance"
+      ],
+      "slug": "2026-08-04-line-following-obstacle-avoiding-robot",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

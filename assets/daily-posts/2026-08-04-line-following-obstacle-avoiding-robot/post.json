@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-04",
+  "board": "pi3",
+  "board_name": "Raspberry Pi 3",
+  "title": "Line-Following & Obstacle-Avoiding Robot — Predictive Maintenance Edition",
+  "tags": [
+    "robotics",
+    "predictive maintenance"
+  ],
+  "slug": "2026-08-04-line-following-obstacle-avoiding-robot",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Line-Following & Obstacle-Avoiding Robot — Predictive Maintenance Edition\n\n**Board:** Raspberry Pi 3 — Quad-core Linux SBC (WiFi + Bluetooth, general-purpose home automation / robotics hub)\n**Date:** 2026-08-04\n\n### Overview\nAn IR reflectance array handles line-following while an ultrasonic sensor overrides steering to dodge unexpected obstacles, with the Pi 3's extra headroom (versus a bare microcontroller) leaving room to log runs and stream a status feed over WiFi. It's a step up from a Pico-based line follower because the Pi 3 can run real logging and even a lightweight camera-based check alongside the core control loop. A strong club-level robotics platform. A lightweight trend check on recent readings flags drift before it becomes a failure, instead of only reacting after something breaks.\n\n### Key Components / Peripherals\n- IR reflectance array\n- Ultrasonic distance sensor\n- Motor driver + DC motors\n- Rolling-average / threshold trend logic\n\n![Line-Following & Obstacle-Avoiding Robot — Predictive Maintenance Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-04-line-following-obstacle-avoiding-robot/banner.png)\n\n![Line-Following & Obstacle-Avoiding Robot — Predictive Maintenance Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-04-line-following-obstacle-avoiding-robot/diagram.png)\n\n### Tags\n`robotics` `predictive maintenance`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
