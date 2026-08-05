@@ -1,5 +1,5 @@
 {
-  "total_posts": 9,
+  "total_posts": 10,
   "boards": {
     "pico_w": {
       "used_count": 2
@@ -11,7 +11,7 @@
       "used_count": 2
     },
     "pi4": {
-      "used_count": 1
+      "used_count": 2
     },
     "pi5": {
       "used_count": 1
@@ -142,6 +142,20 @@
         "predictive maintenance"
       ],
       "slug": "2026-08-04-line-following-obstacle-avoiding-robot",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-05",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "Self-Hosted Smart Home Automation Server — Solar-Powered Edition",
+      "tags": [
+        "home automation",
+        "IoT",
+        "sustainable tech"
+      ],
+      "slug": "2026-08-05-self-hosted-smart-home-automation-server",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
