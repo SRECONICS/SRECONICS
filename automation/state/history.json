@@ -1,5 +1,5 @@
 {
-  "total_posts": 10,
+  "total_posts": 11,
   "boards": {
     "pico_w": {
       "used_count": 2
@@ -14,7 +14,7 @@
       "used_count": 2
     },
     "pi5": {
-      "used_count": 1
+      "used_count": 2
     },
     "pynq_z2": {
       "used_count": 1
@@ -156,6 +156,20 @@
         "sustainable tech"
       ],
       "slug": "2026-08-05-self-hosted-smart-home-automation-server",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-06",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "Autonomous Lawn-Boundary Mapping Rover — Mobile App Edition",
+      "tags": [
+        "robotics",
+        "computer vision",
+        "mobile integration"
+      ],
+      "slug": "2026-08-06-autonomous-lawn-boundary-mapping-rover",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
