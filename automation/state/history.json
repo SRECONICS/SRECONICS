@@ -1,8 +1,8 @@
 {
-  "total_posts": 12,
+  "total_posts": 13,
   "boards": {
     "pico_w": {
-      "used_count": 2
+      "used_count": 3
     },
     "pi_zero2w": {
       "used_count": 2
@@ -183,6 +183,20 @@
         "edge computing"
       ],
       "slug": "2026-08-07-hardware-sort-search-accelerator-for-embedded-queries",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-08",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "Smart Doorbell with PIR + WiFi Push Alert — Fail-Safe Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "reliability engineering"
+      ],
+      "slug": "2026-08-08-smart-doorbell-with-pir-wifi-push-alert",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
