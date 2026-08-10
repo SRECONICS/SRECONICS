@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-10",
+  "board": "pi3",
+  "board_name": "Raspberry Pi 3",
+  "title": "Automated Pet Door with Collar-Tag Recognition — Offline-First Edition",
+  "tags": [
+    "IoT",
+    "home automation",
+    "edge computing"
+  ],
+  "slug": "2026-08-10-automated-pet-door-with-collar-tag-recognition",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Automated Pet Door with Collar-Tag Recognition — Offline-First Edition\n\n**Board:** Raspberry Pi 3 — Quad-core Linux SBC (WiFi + Bluetooth, general-purpose home automation / robotics hub)\n**Date:** 2026-08-10\n\n### Overview\nAn RFID reader mounted at a pet door checks for an authorized collar tag before releasing a servo-driven latch, keeping neighborhood animals out while letting the household pet through freely. Event logs make it easy to see how often (and when) the pet actually uses the door. It's a genuinely more secure alternative to purely magnetic pet-door locks that any similarly-tagged animal could open. All logic runs locally with no cloud dependency, so it keeps working through internet outages or in network-dead zones.\n\n### Key Components / Peripherals\n- RFID reader + collar tag\n- Servo-driven door latch\n- Local storage (SD card / flash)\n\n![Automated Pet Door with Collar-Tag Recognition — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-10-automated-pet-door-with-collar-tag-recognition/banner.png)\n\n![Automated Pet Door with Collar-Tag Recognition — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-10-automated-pet-door-with-collar-tag-recognition/diagram.png)\n\n### Tags\n`IoT` `home automation` `edge computing`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}

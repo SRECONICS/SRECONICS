@@ -1,5 +1,5 @@
 {
-  "total_posts": 14,
+  "total_posts": 15,
   "boards": {
     "pico_w": {
       "used_count": 3
@@ -8,7 +8,7 @@
       "used_count": 3
     },
     "pi3": {
-      "used_count": 2
+      "used_count": 3
     },
     "pi4": {
       "used_count": 2
@@ -211,6 +211,20 @@
         "predictive maintenance"
       ],
       "slug": "2026-08-09-pet-feeding-monitoring-camera",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-10",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Automated Pet Door with Collar-Tag Recognition — Offline-First Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "edge computing"
+      ],
+      "slug": "2026-08-10-automated-pet-door-with-collar-tag-recognition",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
