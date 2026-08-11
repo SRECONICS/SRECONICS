@@ -1,5 +1,5 @@
 {
-  "total_posts": 15,
+  "total_posts": 16,
   "boards": {
     "pico_w": {
       "used_count": 3
@@ -11,7 +11,7 @@
       "used_count": 3
     },
     "pi4": {
-      "used_count": 2
+      "used_count": 3
     },
     "pi5": {
       "used_count": 2
@@ -225,6 +225,20 @@
         "edge computing"
       ],
       "slug": "2026-08-10-automated-pet-door-with-collar-tag-recognition",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-11",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "Warehouse/Shelf Inventory Scanner Robot — Data Logger Edition",
+      "tags": [
+        "robotics",
+        "computer vision",
+        "data logging"
+      ],
+      "slug": "2026-08-11-warehouse-shelf-inventory-scanner-robot",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

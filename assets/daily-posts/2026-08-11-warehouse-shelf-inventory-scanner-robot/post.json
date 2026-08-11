@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-11",
+  "board": "pi4",
+  "board_name": "Raspberry Pi 4",
+  "title": "Warehouse/Shelf Inventory Scanner Robot — Data Logger Edition",
+  "tags": [
+    "robotics",
+    "computer vision",
+    "data logging"
+  ],
+  "slug": "2026-08-11-warehouse-shelf-inventory-scanner-robot",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Warehouse/Shelf Inventory Scanner Robot — Data Logger Edition\n\n**Board:** Raspberry Pi 4 — Quad-core Linux SBC (USB3, dual display, more compute headroom for local servers / light vision)\n**Date:** 2026-08-11\n\n### Overview\nA camera-equipped rover reads barcodes/QR codes off shelf labels while driving a preset route, cross-checking against an expected inventory list and flagging missing or misplaced items. It's a scaled-down version of the kind of inventory robot warehouses actually deploy, and a great applied-vision project for a robotics club with retail/logistics interests. The Pi 4's compute is what makes real-time barcode decoding while moving practical. Every reading is timestamped and logged locally, giving a historical trend view instead of just a live snapshot.\n\n### Key Components / Peripherals\n- Raspberry Pi Camera Module\n- Barcode/QR decoding library\n- Motor driver + chassis\n- Real-time clock (RTC) + logging storage\n\n![Warehouse/Shelf Inventory Scanner Robot — Data Logger Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-11-warehouse-shelf-inventory-scanner-robot/banner.png)\n\n![Warehouse/Shelf Inventory Scanner Robot — Data Logger Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-11-warehouse-shelf-inventory-scanner-robot/diagram.png)\n\n### Tags\n`robotics` `computer vision` `data logging`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
