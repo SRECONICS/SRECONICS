@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-12",
+  "board": "pi5",
+  "board_name": "Raspberry Pi 5",
+  "title": "Edge-AI Wildlife Species Classifier Camera Trap — Offline-First Edition",
+  "tags": [
+    "computer vision",
+    "edge AI",
+    "edge computing"
+  ],
+  "slug": "2026-08-12-edge-ai-wildlife-species-classifier-camera-trap",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Edge-AI Wildlife Species Classifier Camera Trap — Offline-First Edition\n\n**Board:** Raspberry Pi 5 — Highest-compute Linux SBC (PCIe, fastest CPU, best fit for edge AI / vision / robotics)\n**Date:** 2026-08-12\n\n### Overview\nUnlike a basic motion-triggered trail camera, this one runs an on-device species-classification model right after each trigger, so it can tag captures by species and skip saving/uploading empty or false-trigger frames (blowing leaves, shadows). Running classification on-device rather than uploading everything for cloud processing saves a lot of storage and bandwidth in a remote field deployment. A genuinely useful tool for citizen-science wildlife monitoring projects. All logic runs locally with no cloud dependency, so it keeps working through internet outages or in network-dead zones.\n\n### Key Components / Peripherals\n- Raspberry Pi Camera Module\n- Species-classification model\n- Battery + solar panel\n- Local storage (SD card / flash)\n\n![Edge-AI Wildlife Species Classifier Camera Trap — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-12-edge-ai-wildlife-species-classifier-camera-trap/banner.png)\n\n![Edge-AI Wildlife Species Classifier Camera Trap — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-12-edge-ai-wildlife-species-classifier-camera-trap/diagram.png)\n\n### Tags\n`computer vision` `edge AI` `edge computing`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
