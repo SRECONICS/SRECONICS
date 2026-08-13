@@ -1,5 +1,5 @@
 {
-  "total_posts": 17,
+  "total_posts": 18,
   "boards": {
     "pico_w": {
       "used_count": 3
@@ -17,7 +17,7 @@
       "used_count": 3
     },
     "pynq_z2": {
-      "used_count": 2
+      "used_count": 3
     }
   },
   "posts": [
@@ -253,6 +253,20 @@
         "edge computing"
       ],
       "slug": "2026-08-12-edge-ai-wildlife-species-classifier-camera-trap",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-13",
+      "board": "pynq_z2",
+      "board_name": "PYNQ-Z2 (FPGA)",
+      "title": "Real-Time Stereo Vision Depth Map Generator — Solar-Powered Edition",
+      "tags": [
+        "FPGA acceleration",
+        "computer vision",
+        "sustainable tech"
+      ],
+      "slug": "2026-08-13-real-time-stereo-vision-depth-map-generator",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

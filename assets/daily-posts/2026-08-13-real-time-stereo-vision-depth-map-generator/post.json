@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-13",
+  "board": "pynq_z2",
+  "board_name": "PYNQ-Z2 (FPGA)",
+  "title": "Real-Time Stereo Vision Depth Map Generator — Solar-Powered Edition",
+  "tags": [
+    "FPGA acceleration",
+    "computer vision",
+    "sustainable tech"
+  ],
+  "slug": "2026-08-13-real-time-stereo-vision-depth-map-generator",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Real-Time Stereo Vision Depth Map Generator — Solar-Powered Edition\n\n**Board:** PYNQ-Z2 (FPGA) — Zynq-7020 SoC (ARM Cortex-A9 + programmable logic, HLS-friendly, PYNQ/Python overlay flow)\n**Date:** 2026-08-13\n\n### Overview\nA stereo block-matching pipeline in programmable logic computes a disparity (depth) map from a synchronized pair of camera feeds in real time, a workload that's notoriously hard to run at full frame rate in pure software on an embedded ARM core. Pipelining the search-and-compare stages in hardware is what keeps this from choking at anything beyond a few frames per second. A genuinely advanced and satisfying FPGA computer-vision build. A small solar panel and LiPo charge controller keep it running unattended for weeks, which matters for anything mounted outdoors.\n\n### Key Components / Peripherals\n- Stereo camera pair\n- Block-matching HLS pipeline\n- Solar panel + LiPo charge controller\n\n![Real-Time Stereo Vision Depth Map Generator — Solar-Powered Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-13-real-time-stereo-vision-depth-map-generator/banner.png)\n\n![Real-Time Stereo Vision Depth Map Generator — Solar-Powered Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-13-real-time-stereo-vision-depth-map-generator/diagram.png)\n\n### Tags\n`FPGA acceleration` `computer vision` `sustainable tech`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
