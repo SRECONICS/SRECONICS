@@ -1,8 +1,8 @@
 {
-  "total_posts": 18,
+  "total_posts": 19,
   "boards": {
     "pico_w": {
-      "used_count": 3
+      "used_count": 4
     },
     "pi_zero2w": {
       "used_count": 3
@@ -267,6 +267,20 @@
         "sustainable tech"
       ],
       "slug": "2026-08-13-real-time-stereo-vision-depth-map-generator",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-14",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "Line-Following Robot Base Controller — Solar-Powered Edition",
+      "tags": [
+        "robotics",
+        "IoT",
+        "sustainable tech"
+      ],
+      "slug": "2026-08-14-line-following-robot-base-controller",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
