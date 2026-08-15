@@ -1,11 +1,11 @@
 {
-  "total_posts": 19,
+  "total_posts": 20,
   "boards": {
     "pico_w": {
       "used_count": 4
     },
     "pi_zero2w": {
-      "used_count": 3
+      "used_count": 4
     },
     "pi3": {
       "used_count": 3
@@ -281,6 +281,20 @@
         "sustainable tech"
       ],
       "slug": "2026-08-14-line-following-robot-base-controller",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-15",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Room Sound-Level & Baby Monitor — Cloud Dashboard Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "cloud"
+      ],
+      "slug": "2026-08-15-room-sound-level-baby-monitor",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

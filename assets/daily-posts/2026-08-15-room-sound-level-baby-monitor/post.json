@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-15",
+  "board": "pi_zero2w",
+  "board_name": "Raspberry Pi Zero 2 W",
+  "title": "Room Sound-Level & Baby Monitor — Cloud Dashboard Edition",
+  "tags": [
+    "IoT",
+    "home automation",
+    "cloud"
+  ],
+  "slug": "2026-08-15-room-sound-level-baby-monitor",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Room Sound-Level & Baby Monitor — Cloud Dashboard Edition\n\n**Board:** Raspberry Pi Zero 2 W — Quad-core Linux SBC (WiFi + BT, camera connector, small form factor)\n**Date:** 2026-08-15\n\n### Overview\nA microphone module continuously measures ambient sound level, and the Zero 2 W streams audio (and optionally video) only when the level crosses a threshold, notifying a parent's phone. Streaming on-demand rather than continuously saves both bandwidth and battery if running off a power bank. It's a privacy-respecting alternative to always-on commercial baby monitors since nothing leaves the house. Telemetry is pushed to a cloud dashboard (Grafana/ThingSpeak-style) so the system can be monitored and tuned remotely.\n\n### Key Components / Peripherals\n- I2S/USB microphone module\n- Raspberry Pi Camera Module (optional)\n- Cloud MQTT broker / HTTP endpoint\n\n![Room Sound-Level & Baby Monitor — Cloud Dashboard Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-15-room-sound-level-baby-monitor/banner.png)\n\n![Room Sound-Level & Baby Monitor — Cloud Dashboard Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-15-room-sound-level-baby-monitor/diagram.png)\n\n### Tags\n`IoT` `home automation` `cloud`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
