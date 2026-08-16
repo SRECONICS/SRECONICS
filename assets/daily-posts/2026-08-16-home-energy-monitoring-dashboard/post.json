@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-16",
+  "board": "pi3",
+  "board_name": "Raspberry Pi 3",
+  "title": "Home Energy Monitoring Dashboard — Offline-First Edition",
+  "tags": [
+    "IoT",
+    "home automation",
+    "edge computing"
+  ],
+  "slug": "2026-08-16-home-energy-monitoring-dashboard",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Home Energy Monitoring Dashboard — Offline-First Edition\n\n**Board:** Raspberry Pi 3 — Quad-core Linux SBC (WiFi + Bluetooth, general-purpose home automation / robotics hub)\n**Date:** 2026-08-16\n\n### Overview\nNon-invasive CT clamp sensors around the main incoming lines let the Pi 3 measure whole-home power draw without touching any wiring, feeding a local dashboard that breaks usage into rough per-circuit estimates. Because it's completely local, there's no per-device subscription like commercial energy monitors charge. Seeing where power actually goes tends to change behavior fast, which is the whole point. All logic runs locally with no cloud dependency, so it keeps working through internet outages or in network-dead zones.\n\n### Key Components / Peripherals\n- CT clamp current sensors\n- ADC breakout (ADS1115)\n- Local storage (SD card / flash)\n\n![Home Energy Monitoring Dashboard — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-16-home-energy-monitoring-dashboard/banner.png)\n\n![Home Energy Monitoring Dashboard — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-16-home-energy-monitoring-dashboard/diagram.png)\n\n### Tags\n`IoT` `home automation` `edge computing`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}

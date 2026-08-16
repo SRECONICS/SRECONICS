@@ -1,5 +1,5 @@
 {
-  "total_posts": 20,
+  "total_posts": 21,
   "boards": {
     "pico_w": {
       "used_count": 4
@@ -8,7 +8,7 @@
       "used_count": 4
     },
     "pi3": {
-      "used_count": 3
+      "used_count": 4
     },
     "pi4": {
       "used_count": 3
@@ -295,6 +295,20 @@
         "cloud"
       ],
       "slug": "2026-08-15-room-sound-level-baby-monitor",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-16",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Home Energy Monitoring Dashboard — Offline-First Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "edge computing"
+      ],
+      "slug": "2026-08-16-home-energy-monitoring-dashboard",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
