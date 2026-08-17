@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-17",
+  "board": "pi4",
+  "board_name": "Raspberry Pi 4",
+  "title": "Pose-Controlled Smart TV Remote — Offline-First Edition",
+  "tags": [
+    "computer vision",
+    "home automation",
+    "edge computing"
+  ],
+  "slug": "2026-08-17-pose-controlled-smart-tv-remote",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Pose-Controlled Smart TV Remote — Offline-First Edition\n\n**Board:** Raspberry Pi 4 — Quad-core Linux SBC (USB3, dual display, more compute headroom for local servers / light vision)\n**Date:** 2026-08-17\n\n### Overview\nA webcam and a lightweight pose-estimation model translate hand gestures (swipe, palm-up, fist) into media-control commands sent to a TV or media center over the network, so 'turn up the volume' doesn't require finding a remote. Pose estimation is squarely in the compute range the Pi 4 can handle without a dedicated accelerator. A genuinely fun demo project that also teaches real applied computer vision. All logic runs locally with no cloud dependency, so it keeps working through internet outages or in network-dead zones.\n\n### Key Components / Peripherals\n- USB webcam\n- Pose-estimation model (MediaPipe-style)\n- Local storage (SD card / flash)\n\n![Pose-Controlled Smart TV Remote — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-17-pose-controlled-smart-tv-remote/banner.png)\n\n![Pose-Controlled Smart TV Remote — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-17-pose-controlled-smart-tv-remote/diagram.png)\n\n### Tags\n`computer vision` `home automation` `edge computing`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}

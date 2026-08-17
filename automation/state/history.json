@@ -1,5 +1,5 @@
 {
-  "total_posts": 21,
+  "total_posts": 22,
   "boards": {
     "pico_w": {
       "used_count": 4
@@ -11,7 +11,7 @@
       "used_count": 4
     },
     "pi4": {
-      "used_count": 3
+      "used_count": 4
     },
     "pi5": {
       "used_count": 3
@@ -309,6 +309,20 @@
         "edge computing"
       ],
       "slug": "2026-08-16-home-energy-monitoring-dashboard",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-17",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "Pose-Controlled Smart TV Remote — Offline-First Edition",
+      "tags": [
+        "computer vision",
+        "home automation",
+        "edge computing"
+      ],
+      "slug": "2026-08-17-pose-controlled-smart-tv-remote",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
