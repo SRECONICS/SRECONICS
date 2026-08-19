@@ -1,5 +1,5 @@
 {
-  "total_posts": 23,
+  "total_posts": 24,
   "boards": {
     "pico_w": {
       "used_count": 4
@@ -17,7 +17,7 @@
       "used_count": 4
     },
     "pynq_z2": {
-      "used_count": 3
+      "used_count": 4
     }
   },
   "posts": [
@@ -337,6 +337,19 @@
         "sustainable tech"
       ],
       "slug": "2026-08-18-real-time-crowd-density-estimation-display",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-19",
+      "board": "pynq_z2",
+      "board_name": "PYNQ-Z2 (FPGA)",
+      "title": "Hardware Sort/Search Accelerator for Embedded Queries — Mobile App Edition",
+      "tags": [
+        "FPGA acceleration",
+        "mobile integration"
+      ],
+      "slug": "2026-08-19-hardware-sort-search-accelerator-for-embedded-queries",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

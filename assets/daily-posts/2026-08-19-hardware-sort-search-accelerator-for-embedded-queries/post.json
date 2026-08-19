@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-19",
+  "board": "pynq_z2",
+  "board_name": "PYNQ-Z2 (FPGA)",
+  "title": "Hardware Sort/Search Accelerator for Embedded Queries — Mobile App Edition",
+  "tags": [
+    "FPGA acceleration",
+    "mobile integration"
+  ],
+  "slug": "2026-08-19-hardware-sort-search-accelerator-for-embedded-queries",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Hardware Sort/Search Accelerator for Embedded Queries — Mobile App Edition\n\n**Board:** PYNQ-Z2 (FPGA) — Zynq-7020 SoC (ARM Cortex-A9 + programmable logic, HLS-friendly, PYNQ/Python overlay flow)\n**Date:** 2026-08-19\n\n### Overview\nA pipelined hardware sorting network and binary-search core built in programmable logic accelerates lookups over a fixed embedded dataset (a lookup table, sensor calibration set, or small local database) far faster than a software search loop competing for ARM cycles. It's a clean, teachable example of applying classic hardware-acceleration principles (parallelism, pipelining) to a problem that isn't signal processing or vision, which broadens the FPGA-acceleration story. Good for a portfolio that wants to show FPGA use beyond the usual DSP/vision demos. A companion phone app talks to the board over BLE/WiFi for live status and manual override, no laptop required.\n\n### Key Components / Peripherals\n- Sorting-network HLS core\n- Binary-search HLS core\n- BLE/WiFi companion app link\n\n![Hardware Sort/Search Accelerator for Embedded Queries — Mobile App Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-19-hardware-sort-search-accelerator-for-embedded-queries/banner.png)\n\n![Hardware Sort/Search Accelerator for Embedded Queries — Mobile App Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-19-hardware-sort-search-accelerator-for-embedded-queries/diagram.png)\n\n### Tags\n`FPGA acceleration` `mobile integration`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
