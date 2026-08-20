@@ -1,8 +1,8 @@
 {
-  "total_posts": 24,
+  "total_posts": 25,
   "boards": {
     "pico_w": {
-      "used_count": 4
+      "used_count": 5
     },
     "pi_zero2w": {
       "used_count": 4
@@ -350,6 +350,20 @@
         "mobile integration"
       ],
       "slug": "2026-08-19-hardware-sort-search-accelerator-for-embedded-queries",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-20",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "Smart Doorbell with PIR + WiFi Push Alert — Data Logger Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "data logging"
+      ],
+      "slug": "2026-08-20-smart-doorbell-with-pir-wifi-push-alert",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
