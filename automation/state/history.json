@@ -1,11 +1,11 @@
 {
-  "total_posts": 25,
+  "total_posts": 26,
   "boards": {
     "pico_w": {
       "used_count": 5
     },
     "pi_zero2w": {
-      "used_count": 4
+      "used_count": 5
     },
     "pi3": {
       "used_count": 4
@@ -364,6 +364,20 @@
         "data logging"
       ],
       "slug": "2026-08-20-smart-doorbell-with-pir-wifi-push-alert",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-21",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Solar Trail-Counter for Hiking Groups — Mobile App Edition",
+      "tags": [
+        "computer vision",
+        "environmental monitoring",
+        "mobile integration"
+      ],
+      "slug": "2026-08-21-solar-trail-counter-for-hiking-groups",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
