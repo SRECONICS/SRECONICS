@@ -1,5 +1,5 @@
 {
-  "total_posts": 26,
+  "total_posts": 27,
   "boards": {
     "pico_w": {
       "used_count": 5
@@ -8,7 +8,7 @@
       "used_count": 5
     },
     "pi3": {
-      "used_count": 4
+      "used_count": 5
     },
     "pi4": {
       "used_count": 4
@@ -378,6 +378,19 @@
         "mobile integration"
       ],
       "slug": "2026-08-21-solar-trail-counter-for-hiking-groups",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-22",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Line-Following & Obstacle-Avoiding Robot — Mobile App Edition",
+      "tags": [
+        "robotics",
+        "mobile integration"
+      ],
+      "slug": "2026-08-22-line-following-obstacle-avoiding-robot",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
