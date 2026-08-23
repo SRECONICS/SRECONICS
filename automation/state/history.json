@@ -1,5 +1,5 @@
 {
-  "total_posts": 27,
+  "total_posts": 28,
   "boards": {
     "pico_w": {
       "used_count": 5
@@ -11,7 +11,7 @@
       "used_count": 5
     },
     "pi4": {
-      "used_count": 4
+      "used_count": 5
     },
     "pi5": {
       "used_count": 4
@@ -391,6 +391,20 @@
         "mobile integration"
       ],
       "slug": "2026-08-22-line-following-obstacle-avoiding-robot",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-23",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "Vision-Guided Line-Maze Solving Robot — Cloud Dashboard Edition",
+      "tags": [
+        "robotics",
+        "computer vision",
+        "cloud"
+      ],
+      "slug": "2026-08-23-vision-guided-line-maze-solving-robot",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
