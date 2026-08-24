@@ -1,5 +1,5 @@
 {
-  "total_posts": 28,
+  "total_posts": 29,
   "boards": {
     "pico_w": {
       "used_count": 5
@@ -14,7 +14,7 @@
       "used_count": 5
     },
     "pi5": {
-      "used_count": 4
+      "used_count": 5
     },
     "pynq_z2": {
       "used_count": 4
@@ -405,6 +405,20 @@
         "cloud"
       ],
       "slug": "2026-08-23-vision-guided-line-maze-solving-robot",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-24",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "Edge-AI Quality-Inspection Camera — Solar-Powered Edition",
+      "tags": [
+        "computer vision",
+        "edge AI",
+        "sustainable tech"
+      ],
+      "slug": "2026-08-24-edge-ai-quality-inspection-camera",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

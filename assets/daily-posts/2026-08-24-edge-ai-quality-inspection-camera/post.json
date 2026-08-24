@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-24",
+  "board": "pi5",
+  "board_name": "Raspberry Pi 5",
+  "title": "Edge-AI Quality-Inspection Camera — Solar-Powered Edition",
+  "tags": [
+    "computer vision",
+    "edge AI",
+    "sustainable tech"
+  ],
+  "slug": "2026-08-24-edge-ai-quality-inspection-camera",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Edge-AI Quality-Inspection Camera — Solar-Powered Edition\n\n**Board:** Raspberry Pi 5 — Highest-compute Linux SBC (PCIe, fastest CPU, best fit for edge AI / vision / robotics)\n**Date:** 2026-08-24\n\n### Overview\nA fixed camera over a small assembly line runs an on-device defect-classification model (trained on a handful of good/bad sample images) to flag parts that don't meet spec, in real time, without sending any images off-device. It's a genuinely deployable small-scale version of industrial machine-vision inspection systems that normally cost thousands. A strong project for anyone interested in manufacturing/industrial edge AI. A small solar panel and LiPo charge controller keep it running unattended for weeks, which matters for anything mounted outdoors.\n\n### Key Components / Peripherals\n- Raspberry Pi Camera Module\n- PCIe AI accelerator HAT\n- Conveyor/fixture rig\n- Solar panel + LiPo charge controller\n\n![Edge-AI Quality-Inspection Camera — Solar-Powered Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-24-edge-ai-quality-inspection-camera/banner.png)\n\n![Edge-AI Quality-Inspection Camera — Solar-Powered Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-24-edge-ai-quality-inspection-camera/diagram.png)\n\n### Tags\n`computer vision` `edge AI` `sustainable tech`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
