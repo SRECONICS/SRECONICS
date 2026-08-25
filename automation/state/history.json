@@ -1,5 +1,5 @@
 {
-  "total_posts": 29,
+  "total_posts": 30,
   "boards": {
     "pico_w": {
       "used_count": 5
@@ -17,7 +17,7 @@
       "used_count": 5
     },
     "pynq_z2": {
-      "used_count": 4
+      "used_count": 5
     }
   },
   "posts": [
@@ -419,6 +419,19 @@
         "sustainable tech"
       ],
       "slug": "2026-08-24-edge-ai-quality-inspection-camera",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-25",
+      "board": "pynq_z2",
+      "board_name": "PYNQ-Z2 (FPGA)",
+      "title": "Hardware AES Core for Secure IoT Gateway — Data Logger Edition",
+      "tags": [
+        "FPGA acceleration",
+        "data logging"
+      ],
+      "slug": "2026-08-25-hardware-aes-core-for-secure-iot-gateway",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

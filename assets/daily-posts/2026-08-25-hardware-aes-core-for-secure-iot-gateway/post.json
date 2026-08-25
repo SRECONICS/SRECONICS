@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-25",
+  "board": "pynq_z2",
+  "board_name": "PYNQ-Z2 (FPGA)",
+  "title": "Hardware AES Core for Secure IoT Gateway — Data Logger Edition",
+  "tags": [
+    "FPGA acceleration",
+    "data logging"
+  ],
+  "slug": "2026-08-25-hardware-aes-core-for-secure-iot-gateway",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Hardware AES Core for Secure IoT Gateway — Data Logger Edition\n\n**Board:** PYNQ-Z2 (FPGA) — Zynq-7020 SoC (ARM Cortex-A9 + programmable logic, HLS-friendly, PYNQ/Python overlay flow)\n**Date:** 2026-08-25\n\n### Overview\nAn AES-128/256 encryption/decryption core implemented directly in programmable logic handles line-rate encryption for data passing through a small IoT gateway running on the PYNQ-Z2's ARM side, freeing the processor entirely from crypto overhead. Doing encryption in fixed hardware also sidesteps a whole category of timing-based software side-channel concerns that software AES implementations have to work around. A strong project for anyone interested in applied hardware security. Every reading is timestamped and logged locally, giving a historical trend view instead of just a live snapshot.\n\n### Key Components / Peripherals\n- AES HLS/RTL core\n- AXI-Lite control interface\n- Real-time clock (RTC) + logging storage\n\n![Hardware AES Core for Secure IoT Gateway — Data Logger Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-25-hardware-aes-core-for-secure-iot-gateway/banner.png)\n\n![Hardware AES Core for Secure IoT Gateway — Data Logger Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-25-hardware-aes-core-for-secure-iot-gateway/diagram.png)\n\n### Tags\n`FPGA acceleration` `data logging`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
