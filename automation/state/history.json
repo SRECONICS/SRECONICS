@@ -1,8 +1,8 @@
 {
-  "total_posts": 30,
+  "total_posts": 31,
   "boards": {
     "pico_w": {
-      "used_count": 5
+      "used_count": 6
     },
     "pi_zero2w": {
       "used_count": 5
@@ -432,6 +432,20 @@
         "data logging"
       ],
       "slug": "2026-08-25-hardware-aes-core-for-secure-iot-gateway",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-26",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "Occupancy Counter for Shared Spaces — Offline-First Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "edge computing"
+      ],
+      "slug": "2026-08-26-occupancy-counter-for-shared-spaces",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
