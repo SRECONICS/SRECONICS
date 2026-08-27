@@ -1,11 +1,11 @@
 {
-  "total_posts": 31,
+  "total_posts": 32,
   "boards": {
     "pico_w": {
       "used_count": 6
     },
     "pi_zero2w": {
-      "used_count": 5
+      "used_count": 6
     },
     "pi3": {
       "used_count": 5
@@ -446,6 +446,20 @@
         "edge computing"
       ],
       "slug": "2026-08-26-occupancy-counter-for-shared-spaces",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-27",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Gate/Driveway OCR Access Log — Fail-Safe Edition",
+      "tags": [
+        "computer vision",
+        "home automation",
+        "reliability engineering"
+      ],
+      "slug": "2026-08-27-gate-driveway-ocr-access-log",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
