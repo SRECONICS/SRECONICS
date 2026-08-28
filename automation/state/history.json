@@ -1,5 +1,5 @@
 {
-  "total_posts": 32,
+  "total_posts": 33,
   "boards": {
     "pico_w": {
       "used_count": 6
@@ -8,7 +8,7 @@
       "used_count": 6
     },
     "pi3": {
-      "used_count": 5
+      "used_count": 6
     },
     "pi4": {
       "used_count": 5
@@ -460,6 +460,20 @@
         "reliability engineering"
       ],
       "slug": "2026-08-27-gate-driveway-ocr-access-log",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-28",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Smart Mailbox Notifier — Voice-Alert Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "accessibility"
+      ],
+      "slug": "2026-08-28-smart-mailbox-notifier",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

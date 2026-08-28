@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-28",
+  "board": "pi3",
+  "board_name": "Raspberry Pi 3",
+  "title": "Smart Mailbox Notifier — Voice-Alert Edition",
+  "tags": [
+    "IoT",
+    "home automation",
+    "accessibility"
+  ],
+  "slug": "2026-08-28-smart-mailbox-notifier",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Smart Mailbox Notifier — Voice-Alert Edition\n\n**Board:** Raspberry Pi 3 — Quad-core Linux SBC (WiFi + Bluetooth, general-purpose home automation / robotics hub)\n**Date:** 2026-08-28\n\n### Overview\nA reed switch on the mailbox flap and a small camera combine to detect and photograph new mail, pushing a notification with the snapshot the moment the flap opens. Running on the Pi 3 (rather than a bare microcontroller) makes it trivial to also run a small web endpoint showing the last few captures. Solves the very real 'did the mail come yet' problem without walking outside. Status changes trigger a spoken alert through a small speaker, which is a lot harder to miss than a dashboard notification.\n\n### Key Components / Peripherals\n- Reed switch\n- Raspberry Pi Camera Module\n- Battery pack\n- Small speaker / audio amp module\n\n![Smart Mailbox Notifier — Voice-Alert Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-28-smart-mailbox-notifier/banner.png)\n\n![Smart Mailbox Notifier — Voice-Alert Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-28-smart-mailbox-notifier/diagram.png)\n\n### Tags\n`IoT` `home automation` `accessibility`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
