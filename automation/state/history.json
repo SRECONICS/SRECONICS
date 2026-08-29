@@ -1,5 +1,5 @@
 {
-  "total_posts": 33,
+  "total_posts": 34,
   "boards": {
     "pico_w": {
       "used_count": 6
@@ -11,7 +11,7 @@
       "used_count": 6
     },
     "pi4": {
-      "used_count": 5
+      "used_count": 6
     },
     "pi5": {
       "used_count": 5
@@ -474,6 +474,19 @@
         "accessibility"
       ],
       "slug": "2026-08-28-smart-mailbox-notifier",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-29",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "Multi-Room Audio & Announcement System — Predictive Maintenance Edition",
+      "tags": [
+        "home automation",
+        "predictive maintenance"
+      ],
+      "slug": "2026-08-29-multi-room-audio-announcement-system",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
