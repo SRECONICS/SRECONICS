@@ -1,5 +1,5 @@
 {
-  "total_posts": 34,
+  "total_posts": 35,
   "boards": {
     "pico_w": {
       "used_count": 6
@@ -14,7 +14,7 @@
       "used_count": 6
     },
     "pi5": {
-      "used_count": 5
+      "used_count": 6
     },
     "pynq_z2": {
       "used_count": 5
@@ -487,6 +487,20 @@
         "predictive maintenance"
       ],
       "slug": "2026-08-29-multi-room-audio-announcement-system",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-30",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "High-FPS Visual Servoing for a Robotic Arm — Mobile App Edition",
+      "tags": [
+        "robotics",
+        "computer vision",
+        "mobile integration"
+      ],
+      "slug": "2026-08-30-high-fps-visual-servoing-for-a-robotic-arm",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

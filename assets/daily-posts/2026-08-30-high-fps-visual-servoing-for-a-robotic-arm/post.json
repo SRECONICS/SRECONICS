@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-30",
+  "board": "pi5",
+  "board_name": "Raspberry Pi 5",
+  "title": "High-FPS Visual Servoing for a Robotic Arm — Mobile App Edition",
+  "tags": [
+    "robotics",
+    "computer vision",
+    "mobile integration"
+  ],
+  "slug": "2026-08-30-high-fps-visual-servoing-for-a-robotic-arm",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## High-FPS Visual Servoing for a Robotic Arm — Mobile App Edition\n\n**Board:** Raspberry Pi 5 — Highest-compute Linux SBC (PCIe, fastest CPU, best fit for edge AI / vision / robotics)\n**Date:** 2026-08-30\n\n### Overview\nA camera mounted near a small robotic arm's end effector feeds a fast object-localization loop that continuously corrects the arm's trajectory toward a moving target, rather than following a fixed pre-programmed path. Keeping this loop at a usable frame rate is exactly the kind of workload the Pi 5's extra CPU throughput was built for. It's a hands-on introduction to closed-loop visual servoing, a real robotics research topic, on affordable hardware. A companion phone app talks to the board over BLE/WiFi for live status and manual override, no laptop required.\n\n### Key Components / Peripherals\n- USB/CSI camera\n- Small robotic arm (servo-driven)\n- BLE/WiFi companion app link\n\n![High-FPS Visual Servoing for a Robotic Arm — Mobile App Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-30-high-fps-visual-servoing-for-a-robotic-arm/banner.png)\n\n![High-FPS Visual Servoing for a Robotic Arm — Mobile App Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-08-30-high-fps-visual-servoing-for-a-robotic-arm/diagram.png)\n\n### Tags\n`robotics` `computer vision` `mobile integration`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
