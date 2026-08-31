@@ -1,5 +1,5 @@
 {
-  "total_posts": 35,
+  "total_posts": 36,
   "boards": {
     "pico_w": {
       "used_count": 6
@@ -17,7 +17,7 @@
       "used_count": 6
     },
     "pynq_z2": {
-      "used_count": 5
+      "used_count": 6
     }
   },
   "posts": [
@@ -501,6 +501,19 @@
         "mobile integration"
       ],
       "slug": "2026-08-30-high-fps-visual-servoing-for-a-robotic-arm",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-08-31",
+      "board": "pynq_z2",
+      "board_name": "PYNQ-Z2 (FPGA)",
+      "title": "Hardware RNG & PUF-Based Device Authentication — Multi-Sensor Fusion Edition",
+      "tags": [
+        "FPGA acceleration",
+        "sensor fusion"
+      ],
+      "slug": "2026-08-31-hardware-rng-puf-based-device-authentication",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
