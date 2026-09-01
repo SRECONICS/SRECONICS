@@ -1,8 +1,8 @@
 {
-  "total_posts": 36,
+  "total_posts": 37,
   "boards": {
     "pico_w": {
-      "used_count": 6
+      "used_count": 7
     },
     "pi_zero2w": {
       "used_count": 6
@@ -514,6 +514,20 @@
         "sensor fusion"
       ],
       "slug": "2026-08-31-hardware-rng-puf-based-device-authentication",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-01",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "BLE Beacon Indoor Asset Tracker — Voice-Alert Edition",
+      "tags": [
+        "IoT",
+        "wireless sensing",
+        "accessibility"
+      ],
+      "slug": "2026-09-01-ble-beacon-indoor-asset-tracker",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
