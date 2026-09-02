@@ -1,11 +1,11 @@
 {
-  "total_posts": 37,
+  "total_posts": 38,
   "boards": {
     "pico_w": {
       "used_count": 7
     },
     "pi_zero2w": {
-      "used_count": 6
+      "used_count": 7
     },
     "pi3": {
       "used_count": 6
@@ -528,6 +528,20 @@
         "accessibility"
       ],
       "slug": "2026-09-01-ble-beacon-indoor-asset-tracker",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-02",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Pet Feeding & Monitoring Camera — Voice-Alert Edition",
+      "tags": [
+        "IoT",
+        "computer vision",
+        "accessibility"
+      ],
+      "slug": "2026-09-02-pet-feeding-monitoring-camera",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

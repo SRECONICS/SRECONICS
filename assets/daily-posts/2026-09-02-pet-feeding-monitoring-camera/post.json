@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-02",
+  "board": "pi_zero2w",
+  "board_name": "Raspberry Pi Zero 2 W",
+  "title": "Pet Feeding & Monitoring Camera — Voice-Alert Edition",
+  "tags": [
+    "IoT",
+    "computer vision",
+    "accessibility"
+  ],
+  "slug": "2026-09-02-pet-feeding-monitoring-camera",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Pet Feeding & Monitoring Camera — Voice-Alert Edition\n\n**Board:** Raspberry Pi Zero 2 W — Quad-core Linux SBC (WiFi + BT, camera connector, small form factor)\n**Date:** 2026-09-02\n\n### Overview\nA camera module streams live video to a small web dashboard while a servo-driven hopper dispenses a measured portion of food on a schedule or on remote trigger. Because the Zero 2 W has enough headroom to run a lightweight web server and encode a video stream simultaneously, the whole feeder plus monitor fits on one board. It's a practical build for checking on a pet during a long day at work. Status changes trigger a spoken alert through a small speaker, which is a lot harder to miss than a dashboard notification.\n\n### Key Components / Peripherals\n- Raspberry Pi Camera Module\n- Servo-driven food hopper\n- Small speaker / audio amp module\n\n![Pet Feeding & Monitoring Camera — Voice-Alert Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-09-02-pet-feeding-monitoring-camera/banner.png)\n\n![Pet Feeding & Monitoring Camera — Voice-Alert Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-09-02-pet-feeding-monitoring-camera/diagram.png)\n\n### Tags\n`IoT` `computer vision` `accessibility`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
