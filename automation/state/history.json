@@ -1,5 +1,5 @@
 {
-  "total_posts": 38,
+  "total_posts": 39,
   "boards": {
     "pico_w": {
       "used_count": 7
@@ -8,7 +8,7 @@
       "used_count": 7
     },
     "pi3": {
-      "used_count": 6
+      "used_count": 7
     },
     "pi4": {
       "used_count": 6
@@ -542,6 +542,20 @@
         "accessibility"
       ],
       "slug": "2026-09-02-pet-feeding-monitoring-camera",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-03",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Multi-Zone Irrigation Controller — Fail-Safe Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "reliability engineering"
+      ],
+      "slug": "2026-09-03-multi-zone-irrigation-controller",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

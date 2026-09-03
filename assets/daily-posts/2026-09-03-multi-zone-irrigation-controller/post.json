@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-03",
+  "board": "pi3",
+  "board_name": "Raspberry Pi 3",
+  "title": "Multi-Zone Irrigation Controller — Fail-Safe Edition",
+  "tags": [
+    "IoT",
+    "home automation",
+    "reliability engineering"
+  ],
+  "slug": "2026-09-03-multi-zone-irrigation-controller",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Multi-Zone Irrigation Controller — Fail-Safe Edition\n\n**Board:** Raspberry Pi 3 — Quad-core Linux SBC (WiFi + Bluetooth, general-purpose home automation / robotics hub)\n**Date:** 2026-09-03\n\n### Overview\nThe Pi 3 drives a bank of relays controlling separate irrigation valves, and cross-references a free weather API so it skips a scheduled watering if rain already fell or is forecast. Each zone gets its own schedule, tuned to what's actually planted there rather than one blanket timer. It saves real water and plant health versus a basic mechanical irrigation timer. A watchdog timer and a defined power-loss behavior make sure the system fails to a safe state instead of hanging silently.\n\n### Key Components / Peripherals\n- 8-channel relay module\n- Solenoid irrigation valves\n- Watchdog timer / backup power path\n\n![Multi-Zone Irrigation Controller — Fail-Safe Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-09-03-multi-zone-irrigation-controller/banner.png)\n\n![Multi-Zone Irrigation Controller — Fail-Safe Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-09-03-multi-zone-irrigation-controller/diagram.png)\n\n### Tags\n`IoT` `home automation` `reliability engineering`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
