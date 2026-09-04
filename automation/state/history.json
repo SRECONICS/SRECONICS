@@ -1,5 +1,5 @@
 {
-  "total_posts": 39,
+  "total_posts": 40,
   "boards": {
     "pico_w": {
       "used_count": 7
@@ -11,7 +11,7 @@
       "used_count": 7
     },
     "pi4": {
-      "used_count": 6
+      "used_count": 7
     },
     "pi5": {
       "used_count": 6
@@ -556,6 +556,20 @@
         "reliability engineering"
       ],
       "slug": "2026-09-03-multi-zone-irrigation-controller",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-04",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "On-Device LLM Voice Assistant for Home Control — Offline-First Edition",
+      "tags": [
+        "home automation",
+        "edge AI",
+        "edge computing"
+      ],
+      "slug": "2026-09-04-on-device-llm-voice-assistant-for-home-control",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }

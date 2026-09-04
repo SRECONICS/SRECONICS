@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-04",
+  "board": "pi4",
+  "board_name": "Raspberry Pi 4",
+  "title": "On-Device LLM Voice Assistant for Home Control — Offline-First Edition",
+  "tags": [
+    "home automation",
+    "edge AI",
+    "edge computing"
+  ],
+  "slug": "2026-09-04-on-device-llm-voice-assistant-for-home-control",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## On-Device LLM Voice Assistant for Home Control — Offline-First Edition\n\n**Board:** Raspberry Pi 4 — Quad-core Linux SBC (USB3, dual display, more compute headroom for local servers / light vision)\n**Date:** 2026-09-04\n\n### Overview\nA small quantized language model runs locally on the Pi 4 to parse loosely-phrased voice commands ('it's a bit warm in here') into concrete device actions, going well beyond the rigid keyword matching of a basic voice hub. Running the model on-device means commands never leave the house. It's an ambitious but genuinely achievable edge-AI project given how far small quantized models have come. All logic runs locally with no cloud dependency, so it keeps working through internet outages or in network-dead zones.\n\n### Key Components / Peripherals\n- USB microphone\n- Quantized local LLM (GGUF-format)\n- Local storage (SD card / flash)\n\n![On-Device LLM Voice Assistant for Home Control — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-09-04-on-device-llm-voice-assistant-for-home-control/banner.png)\n\n![On-Device LLM Voice Assistant for Home Control — Offline-First Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-09-04-on-device-llm-voice-assistant-for-home-control/diagram.png)\n\n### Tags\n`home automation` `edge AI` `edge computing`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
