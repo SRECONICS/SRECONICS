@@ -1,5 +1,5 @@
 {
-  "total_posts": 40,
+  "total_posts": 41,
   "boards": {
     "pico_w": {
       "used_count": 7
@@ -14,7 +14,7 @@
       "used_count": 7
     },
     "pi5": {
-      "used_count": 6
+      "used_count": 7
     },
     "pynq_z2": {
       "used_count": 6
@@ -570,6 +570,20 @@
         "edge computing"
       ],
       "slug": "2026-09-04-on-device-llm-voice-assistant-for-home-control",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-05",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "Multimodal Voice + Vision Home Assistant — Fail-Safe Edition",
+      "tags": [
+        "computer vision",
+        "edge AI",
+        "reliability engineering"
+      ],
+      "slug": "2026-09-05-multimodal-voice-vision-home-assistant",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
