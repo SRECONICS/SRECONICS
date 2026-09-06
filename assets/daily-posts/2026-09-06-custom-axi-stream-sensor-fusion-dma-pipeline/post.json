@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-06",
+  "board": "pynq_z2",
+  "board_name": "PYNQ-Z2 (FPGA)",
+  "title": "Custom AXI-Stream Sensor-Fusion DMA Pipeline — Cloud Dashboard Edition",
+  "tags": [
+    "FPGA acceleration",
+    "sensor fusion",
+    "cloud"
+  ],
+  "slug": "2026-09-06-custom-axi-stream-sensor-fusion-dma-pipeline",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS",
+  "body": "## Custom AXI-Stream Sensor-Fusion DMA Pipeline — Cloud Dashboard Edition\n\n**Board:** PYNQ-Z2 (FPGA) — Zynq-7020 SoC (ARM Cortex-A9 + programmable logic, HLS-friendly, PYNQ/Python overlay flow)\n**Date:** 2026-09-06\n\n### Overview\nMultiple sensor streams (say, an IMU and an ADC) are merged through a custom AXI-Stream DMA pipeline in programmable logic that timestamp-aligns and interleaves the data before handing a single clean stream to the ARM side, instead of software having to poll and merge each source separately. This offloads a genuinely fiddly synchronization problem onto hardware where it belongs. A great project for understanding how real sensor-fusion systems handle multi-rate data at the hardware level. Telemetry is pushed to a cloud dashboard (Grafana/ThingSpeak-style) so the system can be monitored and tuned remotely.\n\n### Key Components / Peripherals\n- IMU sensor\n- ADC input\n- Custom AXI-Stream DMA IP\n- Cloud MQTT broker / HTTP endpoint\n\n![Custom AXI-Stream Sensor-Fusion DMA Pipeline — Cloud Dashboard Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-09-06-custom-axi-stream-sensor-fusion-dma-pipeline/banner.png)\n\n![Custom AXI-Stream Sensor-Fusion DMA Pipeline — Cloud Dashboard Edition](https://raw.githubusercontent.com/SRECONICS/SRECONICS/main/assets/daily-posts/2026-09-06-custom-axi-stream-sensor-fusion-dma-pipeline/diagram.png)\n\n### Tags\n`FPGA acceleration` `sensor fusion` `cloud`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W → Zero 2 W → Pi 3 → Pi 4 → Pi 5 → PYNQ-Z2).*"
+}
