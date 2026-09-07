@@ -1,8 +1,8 @@
 {
-  "total_posts": 42,
+  "total_posts": 43,
   "boards": {
     "pico_w": {
-      "used_count": 7
+      "used_count": 8
     },
     "pi_zero2w": {
       "used_count": 7
@@ -598,6 +598,20 @@
         "cloud"
       ],
       "slug": "2026-09-06-custom-axi-stream-sensor-fusion-dma-pipeline",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-07",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "WiFi-Synced Ambient LED Status Display — Data Logger Edition",
+      "tags": [
+        "home automation",
+        "IoT",
+        "data logging"
+      ],
+      "slug": "2026-09-07-wifi-synced-ambient-led-status-display",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
