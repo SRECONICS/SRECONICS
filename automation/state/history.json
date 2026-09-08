@@ -1,11 +1,11 @@
 {
-  "total_posts": 43,
+  "total_posts": 44,
   "boards": {
     "pico_w": {
       "used_count": 8
     },
     "pi_zero2w": {
-      "used_count": 7
+      "used_count": 8
     },
     "pi3": {
       "used_count": 7
@@ -612,6 +612,20 @@
         "data logging"
       ],
       "slug": "2026-09-07-wifi-synced-ambient-led-status-display",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-08",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Smart Mirror Info Display — Predictive Maintenance Edition",
+      "tags": [
+        "home automation",
+        "computer vision",
+        "predictive maintenance"
+      ],
+      "slug": "2026-09-08-smart-mirror-info-display",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
