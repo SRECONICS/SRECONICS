@@ -1,5 +1,5 @@
 {
-  "total_posts": 44,
+  "total_posts": 45,
   "boards": {
     "pico_w": {
       "used_count": 8
@@ -8,7 +8,7 @@
       "used_count": 8
     },
     "pi3": {
-      "used_count": 7
+      "used_count": 8
     },
     "pi4": {
       "used_count": 7
@@ -626,6 +626,19 @@
         "predictive maintenance"
       ],
       "slug": "2026-09-08-smart-mirror-info-display",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-09",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Gesture-Controlled Room Lighting — Cloud Dashboard Edition",
+      "tags": [
+        "home automation",
+        "cloud"
+      ],
+      "slug": "2026-09-09-gesture-controlled-room-lighting",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
