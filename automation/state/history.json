@@ -1,5 +1,5 @@
 {
-  "total_posts": 45,
+  "total_posts": 46,
   "boards": {
     "pico_w": {
       "used_count": 8
@@ -11,7 +11,7 @@
       "used_count": 8
     },
     "pi4": {
-      "used_count": 7
+      "used_count": 8
     },
     "pi5": {
       "used_count": 7
@@ -639,6 +639,20 @@
         "cloud"
       ],
       "slug": "2026-09-09-gesture-controlled-room-lighting",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-10",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "Local Multi-Camera NVR with Motion Zones — Cloud Dashboard Edition",
+      "tags": [
+        "computer vision",
+        "home automation",
+        "cloud"
+      ],
+      "slug": "2026-09-10-local-multi-camera-nvr-with-motion-zones",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
