@@ -1,5 +1,5 @@
 {
-  "total_posts": 46,
+  "total_posts": 47,
   "boards": {
     "pico_w": {
       "used_count": 8
@@ -14,7 +14,7 @@
       "used_count": 8
     },
     "pi5": {
-      "used_count": 7
+      "used_count": 8
     },
     "pynq_z2": {
       "used_count": 7
@@ -653,6 +653,20 @@
         "cloud"
       ],
       "slug": "2026-09-10-local-multi-camera-nvr-with-motion-zones",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-11",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "Edge-AI Wildlife Species Classifier Camera Trap — Fail-Safe Edition",
+      "tags": [
+        "computer vision",
+        "edge AI",
+        "reliability engineering"
+      ],
+      "slug": "2026-09-11-edge-ai-wildlife-species-classifier-camera-trap",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
