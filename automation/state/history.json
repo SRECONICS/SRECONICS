@@ -1,5 +1,5 @@
 {
-  "total_posts": 47,
+  "total_posts": 48,
   "boards": {
     "pico_w": {
       "used_count": 8
@@ -17,7 +17,7 @@
       "used_count": 8
     },
     "pynq_z2": {
-      "used_count": 7
+      "used_count": 8
     }
   },
   "posts": [
@@ -667,6 +667,20 @@
         "reliability engineering"
       ],
       "slug": "2026-09-11-edge-ai-wildlife-species-classifier-camera-trap",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-12",
+      "board": "pynq_z2",
+      "board_name": "PYNQ-Z2 (FPGA)",
+      "title": "Custom AXI-Stream Sensor-Fusion DMA Pipeline — Offline-First Edition",
+      "tags": [
+        "FPGA acceleration",
+        "sensor fusion",
+        "edge computing"
+      ],
+      "slug": "2026-09-12-custom-axi-stream-sensor-fusion-dma-pipeline",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
