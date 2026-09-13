@@ -1,8 +1,8 @@
 {
-  "total_posts": 48,
+  "total_posts": 49,
   "boards": {
     "pico_w": {
-      "used_count": 8
+      "used_count": 9
     },
     "pi_zero2w": {
       "used_count": 8
@@ -681,6 +681,20 @@
         "edge computing"
       ],
       "slug": "2026-09-12-custom-axi-stream-sensor-fusion-dma-pipeline",
+      "owner": "SRECONICS",
+      "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-13",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "Smart Doorbell with PIR + WiFi Push Alert — Cloud Dashboard Edition",
+      "tags": [
+        "IoT",
+        "home automation",
+        "cloud"
+      ],
+      "slug": "2026-09-13-smart-doorbell-with-pir-wifi-push-alert",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
     }
