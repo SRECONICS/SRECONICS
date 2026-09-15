@@ -1,9 +1,8 @@
 name: Daily Project Showcase Post
 
+# PAUSED: schedule trigger removed on user request (stopped automation).
+# To resume, restore the `schedule:` block below (cron: "0 9 * * *") and push.
 on:
-  schedule:
-    # 09:00 UTC daily
-    - cron: "0 9 * * *"
   workflow_dispatch: {}
 
 permissions:
