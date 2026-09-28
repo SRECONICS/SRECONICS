@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-28",
+  "board": "pico_w",
+  "board_name": "Raspberry Pi Pico W",
+  "title": "Wireless CO\u2082 & Air-Quality Monitor with OLED Heatmap \u2014 Embedded Web Server Edition",
+  "tags": [
+    "micropython",
+    "air-quality",
+    "iot"
+  ],
+  "slug": "2026-09-28-wireless-co2-air-quality-monitor-oled-heatmap",
+  "owner": "SRECONICS",
+  "repo": "SRECONICS"
+}
