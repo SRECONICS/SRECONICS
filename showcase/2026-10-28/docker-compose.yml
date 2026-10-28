@@ -1,0 +1,66 @@
+version: "3.9"
+
+# ── 4K Surveillance DVR — Pi 5 NVMe Edition ──────────────────────────────────
+# Services: Frigate NVR + Mosquitto MQTT broker
+# Prereqs:
+#   - Docker + docker-compose installed on Pi 5
+#   - NVMe SSD mounted at /mnt/nvme
+#   - Pi Camera v3 attached via CSI (exposed as /dev/video0)
+#   - Telegram Bot token + chat ID in .env
+
+services:
+  # ── MQTT Broker ─────────────────────────────────────────────────────────────
+  mosquitto:
+    image: eclipse-mosquitto:2.0
+    container_name: mosquitto
+    restart: unless-stopped
+    ports:
+      - "1883:1883"
+      - "9001:9001"    # WebSocket
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+
+  # ── Frigate NVR ──────────────────────────────────────────────────────────────
+  frigate:
+    container_name: frigate
+    image: ghcr.io/blakeblackshear/frigate:stable-rpi          # ARM64 build
+    restart: unless-stopped
+    privileged: true          # required for camera/HW access
+    shm_size: "256mb"
+    devices:
+      - /dev/video0:/dev/video0   # Pi Cam v3 via libcamera
+      - /dev/dri/renderD128       # optional: V4L2 HW decode
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./frigate/config.yml:/config/config.yml
+      - /mnt/nvme/frigate:/media/frigate      # NVMe-backed recording storage
+      - type: tmpfs
+        target: /tmp/cache
+        tmpfs:
+          size: 1gb
+    ports:
+      - "5000:5000"     # Web UI
+      - "8554:8554"     # RTSP re-stream
+      - "8555:8555/tcp" # WebRTC
+      - "8555:8555/udp"
+    environment:
+      FRIGATE_RTSP_PASSWORD: "${FRIGATE_RTSP_PASSWORD:-changeme}"
+    depends_on:
+      - mosquitto
+
+  # ── Telegram Notification Bot ────────────────────────────────────────────────
+  notify:
+    build: ./notify
+    container_name: frigate_notify
+    restart: unless-stopped
+    environment:
+      MQTT_HOST: mosquitto
+      MQTT_PORT: "1883"
+      TELEGRAM_TOKEN: "${TELEGRAM_TOKEN}"
+      TELEGRAM_CHAT_ID: "${TELEGRAM_CHAT_ID}"
+      FRIGATE_URL: "http://frigate:5000"
+    depends_on:
+      - mosquitto
+      - frigate
