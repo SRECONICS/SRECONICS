@@ -1,0 +1,101 @@
+# ── Frigate NVR Configuration — Pi 5 Edition ─────────────────────────────────
+# File: frigate_config.yml
+# Reference: https://docs.frigate.video/configuration/
+
+mqtt:
+  host: mosquitto
+  port: 1883
+  topic_prefix: frigate
+  client_id: frigate_pi5
+
+# ── Recording storage (NVMe SSD) ─────────────────────────────────────────────
+record:
+  enabled: true
+  retain:
+    days: 7
+    mode: motion            # only retain clips with motion
+  events:
+    retain:
+      default: 14           # keep event clips for 14 days
+      mode: active_objects
+
+# ── Snapshot settings ────────────────────────────────────────────────────────
+snapshots:
+  enabled: true
+  bounding_box: true
+  retain:
+    default: 14
+
+# ── Object detection (CPU-only on Pi 5, or add Hailo HAT) ────────────────────
+detectors:
+  cpu_1:
+    type: cpu
+    num_threads: 4
+
+# ── Camera definitions ────────────────────────────────────────────────────────
+cameras:
+  front_door:
+    ffmpeg:
+      # Pi Camera v3 via libcamera — adjust width/height as needed
+      inputs:
+        - path: /dev/video0
+          input_params: -f v4l2 -video_size 1920x1080 -framerate 30
+          roles:
+            - detect
+            - record
+    detect:
+      enabled: true
+      width: 1920
+      height: 1080
+      fps: 10            # detection FPS (lower = less CPU)
+    record:
+      enabled: true
+    snapshots:
+      enabled: true
+    motion:
+      mask:
+        - 0,0,0,100,200,100,200,0   # mask static areas (adjust per scene)
+    objects:
+      track:
+        - person
+        - car
+        - motorcycle
+        - bicycle
+      filters:
+        person:
+          min_area: 5000
+          max_area: 100000
+          min_score: 0.55
+          threshold: 0.70
+        car:
+          min_area: 15000
+          threshold: 0.75
+
+  # Uncomment to add a second camera (USB / IP RTSP)
+  # back_yard:
+  #   ffmpeg:
+  #     inputs:
+  #       - path: rtsp://user:pass@192.168.1.50/stream
+  #         roles:
+  #           - detect
+  #           - record
+  #   detect:
+  #     width: 1920
+  #     height: 1080
+  #     fps: 5
+
+# ── Live stream for Frigate UI ────────────────────────────────────────────────
+go2rtc:
+  streams:
+    front_door:
+      - /dev/video0
+
+# ── Timestamp overlay ────────────────────────────────────────────────────────
+timestamp_style:
+  position: "tl"
+  format: "%Y/%m/%d %H:%M:%S"
+  color:
+    red: 255
+    green: 255
+    blue: 255
+  thickness: 2
