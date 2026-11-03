@@ -1,0 +1,7 @@
+opencv-python>=4.9
+mediapipe>=0.10
+tflite-runtime>=2.14
+numpy>=1.26
+pyttsx3>=2.90
+# Training only (run on a dev machine, not on Pi):
+# tensorflow>=2.15
