@@ -1,0 +1,24 @@
+# Offline AI Voice Assistant — Pi 5 Edition
+# requirements.txt
+
+# Audio I/O
+pyaudio>=0.2.14
+webrtcvad>=2.0.10
+
+# MQTT for home automation
+paho-mqtt>=2.1.0
+
+# GPIO (Raspberry Pi only)
+RPi.GPIO>=0.7.1
+
+# LED ring (Raspberry Pi only — requires sudo / libgpiod)
+rpi-ws281x>=5.0.0
+adafruit-circuitpython-neopixel>=6.3.0
+adafruit-blinka>=8.37.0
+
+# Optional: openWakeWord for real "Hey Pi" hotword
+# openwakeword>=0.6.0
+
+# Standard library modules used (no install needed):
+#   subprocess, threading, signal, json, logging,
+#   tempfile, wave, urllib.request
