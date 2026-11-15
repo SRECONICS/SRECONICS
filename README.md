@@ -24,7 +24,7 @@ located_in: Palakkad, Kerala, India
 current_education: B.E. Electronics & Communication Engineering
 institution: Nehru Institute of Engineering and Technology, Coimbatore
 graduation: Class of 2027
-cgpa: 8.24/10
+cgpa: 8.89/10
 
 fields_of_interests:
   - FPGA & Hardware Acceleration
