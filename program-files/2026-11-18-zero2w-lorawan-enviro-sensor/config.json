@@ -1,0 +1,32 @@
+{
+  "device_name": "zero2w-enviro-001",
+  "dev_eui": "00:11:22:33:44:55:66:77",
+  "app_eui": "77:66:55:44:33:22:11:00",
+  "app_key": "00:11:22:33:44:55:66:77:88:99:AA:BB:CC:DD:EE:FF",
+  "region": "EU868",
+  "sleep_interval_sec": 900,
+  "confirmed_uplinks": true,
+  "sensor_calibrations": {
+    "temperature_offset": 0.0,
+    "humidity_offset": 0.0,
+    "pressure_offset": 0.0,
+    "gas_baseline_ohms": 50000
+  },
+  "mqtt_topic_map": {
+    "uplink": "sreconics/zero2w/enviro/001/up",
+    "downlink": "sreconics/zero2w/enviro/001/down",
+    "status": "sreconics/zero2w/enviro/001/status"
+  },
+  "power": {
+    "battery_low_threshold_v": 3.3,
+    "battery_critical_threshold_v": 3.0,
+    "solar_charge_enable": true
+  },
+  "lorawan": {
+    "adr_enabled": true,
+    "default_datarate": 5,
+    "tx_power_dbm": 14,
+    "rx2_datarate": 3,
+    "rx2_frequency": 869525000
+  }
+}

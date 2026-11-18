@@ -1,0 +1,194 @@
+{
+  "dashboard": {
+    "title": "Zero 2 W LoRaWAN Environmental Sensor",
+    "tags": ["lorawan", "environmental", "zero2w", "sreconics"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Temperature (°C)",
+        "type": "graph",
+        "gridPos": {"x": 0, "y": 0, "w": 12, "h": 8},
+        "targets": [
+          {
+            "measurement": "environmental",
+            "field": "temperature",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "Temperature"
+          }
+        ],
+        "lines": true,
+        "fill": 1,
+        "color": "#f38ba8"
+      },
+      {
+        "id": 2,
+        "title": "Humidity (%RH)",
+        "type": "graph",
+        "gridPos": {"x": 12, "y": 0, "w": 12, "h": 8},
+        "targets": [
+          {
+            "measurement": "environmental",
+            "field": "humidity",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "Humidity"
+          }
+        ],
+        "lines": true,
+        "fill": 1,
+        "color": "#89b4fa"
+      },
+      {
+        "id": 3,
+        "title": "Pressure (hPa)",
+        "type": "graph",
+        "gridPos": {"x": 0, "y": 8, "w": 12, "h": 8},
+        "targets": [
+          {
+            "measurement": "environmental",
+            "field": "pressure",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "Pressure"
+          }
+        ],
+        "lines": true,
+        "fill": 1,
+        "color": "#fab387"
+      },
+      {
+        "id": 4,
+        "title": "Gas Resistance / IAQ",
+        "type": "graph",
+        "gridPos": {"x": 12, "y": 8, "w": 12, "h": 8},
+        "targets": [
+          {
+            "measurement": "environmental",
+            "field": "gas_resistance",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "Gas Resistance (Ω)"
+          },
+          {
+            "measurement": "environmental",
+            "field": "iaq_score",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "IAQ Score",
+            "yAxis": 2
+          }
+        ],
+        "lines": true,
+        "fill": 1
+      },
+      {
+        "id": 5,
+        "title": "LoRaWAN Signal Quality",
+        "type": "graph",
+        "gridPos": {"x": 0, "y": 16, "w": 12, "h": 8},
+        "targets": [
+          {
+            "measurement": "lorawan_uplink",
+            "field": "rssi",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "RSSI (dBm)"
+          },
+          {
+            "measurement": "lorawan_uplink",
+            "field": "snr",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "SNR (dB)",
+            "yAxis": 2
+          }
+        ],
+        "lines": true,
+        "fill": 1,
+        "color": "#a6e3a1"
+      },
+      {
+        "id": 6,
+        "title": "Battery Voltage (V)",
+        "type": "graph",
+        "gridPos": {"x": 12, "y": 16, "w": 12, "h": 8},
+        "targets": [
+          {
+            "measurement": "environmental",
+            "field": "battery_voltage",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "Battery"
+          }
+        ],
+        "lines": true,
+        "fill": 1,
+        "color": "#f9e2af",
+        "thresholds": [
+          {"value": 3.3, "color": "red", "label": "Low"},
+          {"value": 3.7, "color": "yellow", "label": "Nominal"},
+          {"value": 4.2, "color": "green", "label": "Full"}
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Uplink Count & Data Rate",
+        "type": "stat",
+        "gridPos": {"x": 0, "y": 24, "w": 6, "h": 4},
+        "targets": [
+          {
+            "measurement": "lorawan_uplink",
+            "field": "fcnt",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "Frame Count"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Last Seen",
+        "type": "stat",
+        "gridPos": {"x": 6, "y": 24, "w": 6, "h": 4},
+        "targets": [
+          {
+            "measurement": "lorawan_uplink",
+            "field": "timestamp",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "Last Uplink"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Current Data Rate",
+        "type": "stat",
+        "gridPos": {"x": 12, "y": 24, "w": 6, "h": 4},
+        "targets": [
+          {
+            "measurement": "lorawan_uplink",
+            "field": "datarate",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "DR"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "ADR Margin",
+        "type": "stat",
+        "gridPos": {"x": 18, "y": 24, "w": 6, "h": 4},
+        "targets": [
+          {
+            "measurement": "lorawan_uplink",
+            "field": "adr_margin",
+            "tags": {"device": "zero2w-enviro-001"},
+            "alias": "Margin (dB)"
+          }
+        ]
+      }
+    ],
+    "time": {
+      "from": "now-24h",
+      "to": "now"
+    },
+    "refresh": "30s",
+    "schemaVersion": 38,
+    "version": 1,
+    "links": []
+  },
+  "overwrite": true
+}
