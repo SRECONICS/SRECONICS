@@ -1,23 +1,23 @@
 {
-  "total_posts": 50,
+  "total_posts": 75,
   "boards": {
     "pico_w": {
-      "used_count": 9
+      "used_count": 12
     },
     "pi_zero2w": {
-      "used_count": 9
+      "used_count": 13
     },
     "pi3": {
-      "used_count": 8
+      "used_count": 12
     },
     "pi4": {
-      "used_count": 8
+      "used_count": 12
     },
     "pi5": {
-      "used_count": 8
+      "used_count": 14
     },
     "pynq_z2": {
-      "used_count": 8
+      "used_count": 12
     }
   },
   "posts": [
@@ -711,6 +711,356 @@
       "slug": "2026-09-14-gate-driveway-ocr-access-log",
       "owner": "SRECONICS",
       "repo": "SRECONICS"
+    },
+    {
+      "date": "2026-09-21",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "LoRa Gateway for Wireless Sensor Network — Data Logger Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-52-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 52,
+      "note": "Reconstructed from GitHub issue #52 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-09-24",
+      "board": "pynq_z2",
+      "board_name": "PYNQ-Z2 (FPGA)",
+      "title": "FPGA CNN Inference Accelerator for Handwritten Digit Recognition — PYNQ-Z2 Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-53-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 53,
+      "note": "Reconstructed from GitHub issue #53 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-09-28",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "Wireless CO2 & Air-Quality Monitor with OLED Heatmap — Embedded Web Server Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-54-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 54,
+      "note": "Reconstructed from GitHub issue #54 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-09-29",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Pocket VPN Gateway with WireGuard & Live Client Dashboard — Headless Server Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-55-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 55,
+      "note": "Reconstructed from GitHub issue #55 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-05",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Offline Voice-Controlled Home Hub — Local-First Privacy Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-56-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 56,
+      "note": "Reconstructed from GitHub issue #56 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-06",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "Home NAS & Media Vault with RAID-1 SSDs & Samba — Gigabit Storage Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-57-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 57,
+      "note": "Reconstructed from GitHub issue #57 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-07",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "Offline-First Local LLM Voice Assistant with Smart Home MQTT Control — Pi 5 PCIe NVMe Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-58-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 58,
+      "note": "Reconstructed from GitHub issue #58 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-08",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "4K HDR Timelapse Station with RAW Processing Pipeline",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-59-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 59,
+      "note": "Reconstructed from GitHub issue #59 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-12",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "ADS-B Aircraft Radar Station with Live Web Map & Alert Notifications — Pi 5 Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-60-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 60,
+      "note": "Reconstructed from GitHub issue #60 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-14",
+      "board": "pynq_z2",
+      "board_name": "PYNQ-Z2 (FPGA)",
+      "title": "Real-Time FPGA FFT Spectrum Analyzer with Live Waterfall Display - PYNQ-Z2 SDR Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-61-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 61,
+      "note": "Reconstructed from GitHub issue #61 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-18",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "Smart Plant Watering Station with Live Web Dashboard — Pico W WiFi Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-62-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 62,
+      "note": "Reconstructed from GitHub issue #62 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-20",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Wireless OBD-II Car Diagnostics Logger with Live Web Dashboard — Zero 2 W Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-63-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 63,
+      "note": "Reconstructed from GitHub issue #63 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-22",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Local AI Object Detection Security Camera with Motion Alerts — Pi 3 TFLite Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-64-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 64,
+      "note": "Reconstructed from GitHub issue #64 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-25",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "Smart Home Energy Monitor with CT Clamps, Real-Time Power Analytics & Solar Dashboard — Pi 4 Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-65-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 65,
+      "note": "Reconstructed from GitHub issue #65 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-28",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "4K Surveillance DVR with AI Object Detection, NVMe Storage & Mobile Alerts — Pi 5 PCIe Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-66-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 66,
+      "note": "Reconstructed from GitHub issue #66 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-29",
+      "board": "pynq_z2",
+      "board_name": "PYNQ-Z2 (FPGA)",
+      "title": "FPGA-Accelerated CNN Inference Engine for Real-Time Handwritten Digit Recognition — PYNQ-Z2 ML Overlay Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-67-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 67,
+      "note": "Reconstructed from GitHub issue #67 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-30",
+      "board": "pico_w",
+      "board_name": "Raspberry Pi Pico W",
+      "title": "Indoor Air Quality Monitor with CO2/TVOC/PM2.5 Sensing & Telegram Alerts — Pico W MicroPython Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-68-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 68,
+      "note": "Reconstructed from GitHub issue #68 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-10-31",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Portable AI Wildlife Camera Trap with Species Classification & Solar Upload — Zero 2 W TFLite Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-69-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 69,
+      "note": "Reconstructed from GitHub issue #69 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-11-01",
+      "board": "pi3",
+      "board_name": "Raspberry Pi 3",
+      "title": "Automated Hydroponics Controller with pH/EC Sensing, Peristaltic Dosing & Real-Time Flask Dashboard — Pi 3 Python Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-70-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 70,
+      "note": "Reconstructed from GitHub issue #70 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-11-02",
+      "board": "pi4",
+      "board_name": "Raspberry Pi 4",
+      "title": "Real-Time Network Intrusion Detection System with Suricata, Zeek Logging & Live Threat Map Dashboard — Pi 4 Cybersecurity Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-71-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 71,
+      "note": "Reconstructed from GitHub issue #71 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-11-03",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "AI-Powered Sign Language to Speech Translator with Live Webcam & Edge Inference — Pi 5 Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-72-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 72,
+      "note": "Reconstructed from GitHub issue #72 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-11-04",
+      "board": "pynq_z2",
+      "board_name": "PYNQ-Z2 (FPGA)",
+      "title": "FPGA Digital Oscilloscope with 125 MSPS Dual-Channel ADC, Hardware FFT & Live Web Dashboard — PYNQ-Z2 Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-73-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 73,
+      "note": "Reconstructed from GitHub issue #73 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-11-15",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "Offline AI Voice Assistant with Whisper STT, Ollama LLM & Piper TTS — Pi 5 Standalone Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-74-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 74,
+      "note": "Reconstructed from GitHub issue #74 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-11-18",
+      "board": "pi_zero2w",
+      "board_name": "Raspberry Pi Zero 2 W",
+      "title": "Solar-Powered LoRaWAN Environmental Sensor Node with Deep-Sleep Wake & MQTT Uplink — Zero 2 W Edition",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-75-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 75,
+      "note": "Reconstructed from GitHub issue #75 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
+    },
+    {
+      "date": "2026-11-19",
+      "board": "pi5",
+      "board_name": "Raspberry Pi 5",
+      "title": "AI-Powered Edge Vision Gateway with NVMe Acceleration (Pi 5)",
+      "tags": [
+        "reconciled"
+      ],
+      "slug": "issue-76-reconciled",
+      "owner": "sreconics",
+      "repo": "sreconics",
+      "issue_number": 76,
+      "note": "Reconstructed from GitHub issue #76 body/title; this post was NOT generated via automation/daily_post/main.py (bypassed the pipeline), so it never updated history.json at the time. Added retroactively to restore history.json as the accurate source of truth for rotation."
     }
   ]
 }

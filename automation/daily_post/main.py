@@ -32,6 +32,34 @@ def slugify(text):
 
 def generate(owner, repo, branch):
     state = load_state()
+
+    # Drift guard: automation/state/history.json is supposed to be the one
+    # and only source of truth for the rotation index (see generator.py).
+    # That only holds if every published "showcase" issue actually went
+    # through this function. If some issue got created out-of-band
+    # (manually, or by a different script) without calling generate(),
+    # history.json's total_posts silently falls behind the real issue
+    # count and the next rotation_index computed below would be wrong --
+    # which is exactly how issues #74-#76 skipped boards. Fail loudly
+    # instead of guessing.
+    try:
+        live_count = poster.count_label_issues(owner, repo, "showcase")
+    except Exception as exc:  # pragma: no cover - network/auth issues
+        print(f"WARNING: could not verify history.json against GitHub ({exc}); proceeding anyway.")
+        live_count = None
+
+    if live_count is not None and live_count != state["total_posts"]:
+        raise RuntimeError(
+            "Rotation state drift detected: automation/state/history.json "
+            f"says total_posts={state['total_posts']}, but GitHub currently has "
+            f"{live_count} issue(s) labeled 'showcase'. At least one showcase "
+            "post was created without going through automation/daily_post/main.py, "
+            "so history.json is no longer an accurate record of the rotation. "
+            "Reconcile automation/state/history.json (or at minimum fix "
+            "total_posts and each board's used_count) with the actual boards "
+            "used in the missing issue(s) before generating the next post."
+        )
+
     board, core_idea, twist, lap, rotation_index = generator.next_post(state)
 
     post_date = datetime.date.today()

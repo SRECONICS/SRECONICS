@@ -38,6 +38,27 @@ def ensure_label(owner, repo, name, color, description):
         resp.raise_for_status()
 
 
+def count_label_issues(owner, repo, label):
+    """Total number of issues (open+closed) carrying `label`, via the Search API.
+
+    Used only as a drift check against automation/state/history.json's
+    total_posts -- NOT as a source for the rotation index itself. If a post
+    is ever created out-of-band (manually, or by some other script) without
+    going through main.py/generate(), history.json's total_posts will stop
+    matching this count, and callers should treat that as a hard error
+    rather than silently continuing to compute rotation from a now-stale
+    history.json.
+    """
+    resp = requests.get(
+        f"{API_ROOT}/search/issues",
+        headers=_headers(),
+        params={"q": f"repo:{owner}/{repo} label:{label} type:issue"},
+        timeout=30,
+    )
+    resp.raise_for_status()
+    return resp.json()["total_count"]
+
+
 def create_issue(owner, repo, title, body, labels, assignees=None):
     payload = {"title": title, "body": body, "labels": labels}
     if assignees:
