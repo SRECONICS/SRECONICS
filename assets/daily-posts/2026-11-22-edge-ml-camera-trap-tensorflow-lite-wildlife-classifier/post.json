@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-22",
+  "board": "zero_2_w",
+  "board_name": "Raspberry Pi Zero 2 W \u2014 SBC (BCM2710A1, quad-core Cortex-A53, WiFi + BLE)",
+  "title": "Edge ML Camera Trap \u2014 TensorFlow Lite Wildlife Classifier",
+  "tags": [
+    "Computer Vision",
+    "Edge ML",
+    "Wildlife"
+  ],
+  "slug": "2026-11-22-edge-ml-camera-trap-tensorflow-lite-wildlife-classifier",
+  "owner": "sreconics",
+  "repo": "sreconics",
+  "body": "# Edge ML Camera Trap \u2014 TensorFlow Lite Wildlife Classifier\n\n**Board:** Raspberry Pi Zero 2 W \u2014 SBC (BCM2710A1, quad-core Cortex-A53, WiFi + BLE)\n**Date:** 2026-11-22\n\n### Overview\n\nA motion-triggered wildlife camera that runs TensorFlow Lite classification on-device (MobileNet v3) to detect and log only target species, saving SD space and cellular data. Captures 5 MP stills + 1080p clips, uploads metadata + thumbnails via MQTT over Wi-Fi. Runs weeks on a 10 Ah LiFePO\u2084 pack with solar top-up.\n\n### Key Components / Peripherals\n\n- Raspberry Pi Zero 2 W\n- Pi Camera Module 3 (12 MP AF)\n- PIR motion sensor (AM312)\n- 10 Ah LiFePO\u2084 + 5W solar panel\n- IP66 enclosure with IR-cut lens\n\n![Edge ML Camera Trap \u2014 TensorFlow Lite Wildlife Classifier](https://raw.githubusercontent.com/sreconics/sreconics/main/assets/daily-posts/2026-11-22-edge-ml-camera-trap-tensorflow-lite-wildlife-classifier/banner.png)\n\n![Edge ML Camera Trap \u2014 TensorFlow Lite Wildlife Classifier](https://raw.githubusercontent.com/sreconics/sreconics/main/assets/daily-posts/2026-11-22-edge-ml-camera-trap-tensorflow-lite-wildlife-classifier/diagram.png)\n\n### Tags\n\n`Computer Vision` `Edge ML` `Wildlife`\n\n---\n*Posted automatically as part of DevNode Technologies' daily project showcase rotation (Pico W \u2192 Zero 2 W \u2192 Pi 3 \u2192 Pi 4 \u2192 Pi 5 \u2192 PYNQ-Z2)."
+}
